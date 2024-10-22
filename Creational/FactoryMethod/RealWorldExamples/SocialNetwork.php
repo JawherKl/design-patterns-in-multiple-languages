@@ -8,7 +8,7 @@
 | the exact class of object that will be created.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Creational/RealWorldExample
+| @package   Creational/FactoryMethod/RealWorldExample
 | @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
