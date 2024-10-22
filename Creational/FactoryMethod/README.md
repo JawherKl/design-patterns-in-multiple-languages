@@ -3,9 +3,10 @@ Factory Method is a creational design pattern that provides an interface for cre
 # Conceptual Example:
 This example illustrates the structure of the Factory Method design pattern and focuses on the following questions:
 
-What classes does it consist of?
-What roles do these classes play?
-In what way the elements of the pattern are related?
+* What classes does it consist of?
+* What roles do these classes play?
+* In what way the elements of the pattern are related?
+
 After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP use case.
 
 
