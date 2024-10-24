@@ -2,7 +2,6 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 # Conceptual Example:
 This example illustrates the structure of the Prototype design pattern and focuses on the following questions:
-
 * What classes does it consist of?
 * What roles do these classes play?
 * In what way the elements of the pattern are related?
@@ -19,7 +18,6 @@ This example shows you how to clone a complex Page object using the Prototype pa
 ## Document
 ### Explanation:
 * Purpose: The Prototype Design Pattern allows creating new objects by cloning existing ones rather than instantiating them from scratch. This can save time, especially when object creation is complex.
-
 * Classes:
     * Prototype Interface: Defines a __clone() method that must be implemented by concrete prototypes.
     * Document: A concrete implementation of the prototype, where we specify which fields to carry over or modify during cloning.
@@ -30,7 +28,6 @@ Client Code: It demonstrates creating a document and then cloning it. The cloned
 ## Shape
 ### Explanation:
 * Purpose: This example demonstrates how to clone shapes (like circles and rectangles) using the Prototype Design Pattern. Each shape can be duplicated without the need for recalculating or recreating it from scratch.
-
 * Classes:
 
     * ShapePrototype: The interface that declares the __clone() method for all shapes.
