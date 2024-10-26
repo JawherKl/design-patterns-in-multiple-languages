@@ -8,7 +8,6 @@ This example illustrates the structure of the Prototype design pattern and focus
 
 After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP use case.
 
-
 # Real World Example:
 ## Complex Page:
 The Prototype pattern provides a convenient way of replicating existing objects instead of trying to reconstruct the objects by copying all of their fields directly. The direct approach not only couples you to the classes of the objects being cloned, but also doesn’t allow you to copy the contents of the private fields. The Prototype pattern lets you perform the cloning within the context of the cloned class, where the access to the class’ private fields isn’t restricted.
@@ -29,7 +28,6 @@ Client Code: It demonstrates creating a document and then cloning it. The cloned
 ### Explanation:
 * Purpose: This example demonstrates how to clone shapes (like circles and rectangles) using the Prototype Design Pattern. Each shape can be duplicated without the need for recalculating or recreating it from scratch.
 * Classes:
-
     * ShapePrototype: The interface that declares the __clone() method for all shapes.
     * Shape: An abstract class that implements basic shape behavior, including color handling.
     * Circle: A concrete shape that holds a radius and implements the __clone() method.
