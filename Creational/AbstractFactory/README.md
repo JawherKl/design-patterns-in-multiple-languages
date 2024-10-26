@@ -8,7 +8,6 @@ This example illustrates the structure of the Abstract Factory design pattern. I
 
 After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP use case.
 
-
 # Real World Example:
 ## Web Template:
 In this example, the Abstract Factory pattern provides an infrastructure for creating various types of templates for different elements of a web page.
