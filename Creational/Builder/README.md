@@ -17,6 +17,7 @@ The builder interface defines the common steps required to build a generic SQL q
 
 ## Meal Plan:
 The idea is to have a flexible builder that can create either a vegetarian meal plan or a standard meal plan by combining various components like main course, side dish, and dessert.
+
 ### Explanation:
 * MealPlan: The complex object we are building.
 * MealPlanBuilder: An interface defining the steps to create a meal.
