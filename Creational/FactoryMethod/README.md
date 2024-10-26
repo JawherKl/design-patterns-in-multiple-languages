@@ -9,7 +9,6 @@ This example illustrates the structure of the Factory Method design pattern and 
 
 After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP use case.
 
-
 # Real World Example:
 ## Social Network:
 In this example, the Factory Method pattern provides an interface for creating social network connectors, which can be used to log in to the network, create posts and potentially perform other activities—and all of this without coupling the client code to specific classes of the particular social network.
