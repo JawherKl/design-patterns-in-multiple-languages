@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Builder Design Pattern - Meal Plan Example
+| Builder Design Pattern - Meal Plan
 |--------------------------------------------------------------------------
 | This example demonstrates the Builder Design Pattern to create different
 | types of meal plans (Vegetarian, Standard).
