@@ -1,4 +1,4 @@
-[Switch to English 🇬🇧](README.md)
+[ Passer en Anglais 🇬🇧](README.md)
 
 # Design Patterns
 Dans ce projet, je fournirai des exemples de tous les principaux design patterns et démontrerai comment ils sont implémentés en PHP.
