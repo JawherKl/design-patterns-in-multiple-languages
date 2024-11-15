@@ -1,6 +1,4 @@
-[Switch to English 🇬🇧](README_EN.md)
-
-[Passer en Français 🇫🇷](README_FR.md)
+[ Switch to French 🇫🇷](README_fr.md)
 
 # Creational Design Patterns
 
