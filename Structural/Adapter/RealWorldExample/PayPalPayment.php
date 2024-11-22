@@ -2,13 +2,13 @@
 
 /*
 |--------------------------------------------------------------------------
-| Structural Design Pattern - Structural
+| Adapter Design Pattern - Adapter
 |--------------------------------------------------------------------------
-| Implement Structural Design Pattern to create objects without specifying
+| Implement Adapter Design Pattern to create objects without specifying
 | the exact class of object that will be created.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Structural
+| @package   Adapter
 | @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace Structural\Adapter\RealWorldExample;
+namespace Adapter\Adapter\RealWorldExample;
 
 /**
  * The Target interface represents the standard payment interface that our
