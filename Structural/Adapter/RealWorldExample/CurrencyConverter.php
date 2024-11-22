@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace Adapter\Adapter\RealWorldExample;
+namespace Structural\Structural\RealWorldExample;
 
 /**
  * Target Interface representing the standard interface for currency conversion.
