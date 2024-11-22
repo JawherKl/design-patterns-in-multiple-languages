@@ -111,9 +111,3 @@ echo "Données mises en cache : " . json_encode($cache->get('user_1')) . "\n";
    ```bash
    php chemin/vers/votre/exemple.php
    ```
-
----
-
-## Licence
-
-Ce projet est sous licence MIT.
