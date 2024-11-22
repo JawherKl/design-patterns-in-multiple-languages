@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace Adapter\Adapter\RealWorldExample;
+namespace Structural\Structural\RealWorldExample;
 
 /**
  * The Target interface represents the interface that your application's classes
