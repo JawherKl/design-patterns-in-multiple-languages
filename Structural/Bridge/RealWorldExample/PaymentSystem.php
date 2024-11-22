@@ -1,5 +1,21 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Bridge Design Pattern - Bridge
+|--------------------------------------------------------------------------
+| Implement Bridge Design Pattern to create objects without specifying
+| the exact class of object that will be created.
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Bridge/RealWorldExample
+| @author    JawherKl
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+*/
+
 namespace DesignPatterns\Bridge;
 
 /**

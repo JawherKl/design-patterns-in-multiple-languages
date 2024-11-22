@@ -2,13 +2,13 @@
 
 /*
 |--------------------------------------------------------------------------
-| Structural Design Pattern - Structural
+| Adapter Design Pattern - Adapter
 |--------------------------------------------------------------------------
-| Implement Structural Design Pattern to create objects without specifying
+| Implement Adapter Design Pattern to create objects without specifying
 | the exact class of object that will be created.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Structural
+| @package   Adapter
 | @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace Structural\Adapter;
+namespace Adapter\Adapter;
 
 /**
  * The Target defines the domain-specific interface used by the client code.
