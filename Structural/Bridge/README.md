@@ -36,7 +36,6 @@ This example demonstrates how the Bridge Design Pattern allows separating the ab
 ## CurrencyConverter:
 In this scenario, we'll implement a drawing tool where the abstraction represents different shapes (like circles and rectangles), and the implementation focuses on different rendering methods (like vector rendering and raster rendering).
 ### Explanation:
-
 * Abstraction (Shape): 
 -Represents the concept of a shape.
 -Delegates the rendering logic to the Renderer implementation.
