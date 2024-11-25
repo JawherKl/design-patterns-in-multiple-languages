@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace RefactoringGuru\Bridge\Conceptual;
+namespace Structural\Bridge;
 
 /**
  * The Abstraction defines the interface for the "control" part of the two class
