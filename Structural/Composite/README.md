@@ -13,26 +13,28 @@ After learning about the pattern’s structure it’ll be easier for you to gras
 # Real World Example:
 ## HTMLDOMTree
 The HTML DOM tree is an example of such a structure. For instance, while the various input elements can act as leaves, the complex elements like forms and fieldsets play the role of composites.
-<!--
-## Page
-In this example, the `Page` hierarchy acts as the Abstraction, and the `Renderer` hierarchy acts as the Implementation. Objects of the `Page` class can assemble web pages of a particular kind using basic elements provided by a `Renderer` object attached to that page. Since both of the class hierarchies are separate, you can add a new `Renderer` class without changing any of the `Page` classes and vice versa.
 
-## PaymentSystem
-This example demonstrates how the Bridge Design Pattern allows separating the abstraction (Payment) from the implementation (PaymentGateway), enabling flexibility to add new payment types or gateways without affecting existing code.
+## FileSystem
+example of the Composite Design Pattern similar to the provided one. It demonstrates the structure and functionality of a filesystem (files and folders) using the pattern.
 
 ### Explanation:
-* Abstraction (Payment): 
--Represents the main operations of the payment system.
--Delegates the processing of payments to the PaymentGateway implementation.
-* Refined Abstractions (OnlinePayment, InStorePayment): 
--Provide specific implementations for payment types (online or in-store).
-* Implementation (PaymentGateway Interface): 
--Represents the interface for payment gateways like PayPal or Stripe.
+* Base Component (FilesystemItem):: 
+-Provides a common interface for both `File` and `Folder`.
+-Declares methods for getting size and rendering.
+* Leaf Component (File):
+-Represents individual files.
+-Implements the size calculation and rendering logic for files.
+* Composite Component (Folder):
+-Represents folders that can contain other FilesystemItem objects.
+-Implements logic for adding, removing, and calculating size for all children.
+-Combines rendering output from its children.
 * Concrete Implementations (PayPalGateway, StripeGateway): 
 -Specific implementations for different payment gateways.
 * Client Code: 
--Works only with the abstraction, not caring about the specific implementation.
+-Builds a hierarchical structure of files and folders.
+-Works with the structure using the abstract FilesystemItem interface.
 
+<!--
 ## CurrencyConverter:
 In this scenario, we'll implement a drawing tool where the abstraction represents different shapes (like circles and rectangles), and the implementation focuses on different rendering methods (like vector rendering and raster rendering).
 ### Explanation:
