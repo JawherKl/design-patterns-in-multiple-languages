@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------------
 | Structural Design Pattern - Composite
 |--------------------------------------------------------------------------
-| Implement Bridge Design Pattern to create objects without specifying
+| Implement Composite Design Pattern to create objects without specifying
 | the exact class of object that will be created.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
