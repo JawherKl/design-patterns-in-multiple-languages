@@ -14,39 +14,17 @@ After learning about the pattern’s structure it’ll be easier for you to gras
 ## TextFilering
 In this example, the Decorator pattern helps you to construct complex text filtering rules to clean up content before rendering it on a web page. Different types of content, such as comments, forum posts or private messages require different sets of filters.
 
-## FileSystem
-example of the Composite Design Pattern similar to the provided one. It demonstrates the structure and functionality of a filesystem (files and folders) using the pattern.
+## MessageTransformation
+In this case, we'll decorate a basic Message class to add various text transformations like encryption, reversing, and uppercasing.
 
 ### Explanation:
-* Base Component (FilesystemItem):: 
--Provides a common interface for both `File` and `Folder`.
--Declares methods for getting size and rendering.
-* Leaf Component (File):
--Represents individual files.
--Implements the size calculation and rendering logic for files.
-* Composite Component (Folder):
--Represents folders that can contain other FilesystemItem objects.
--Implements logic for adding, removing, and calculating size for all children.
--Combines rendering output from its children.
-* Concrete Implementations (PayPalGateway, StripeGateway): 
--Specific implementations for different payment gateways.
+* Component Interface (Message): Declares getText() method for processing text.
+* Concrete Component (SimpleMessage): Implements the interface to return the original message.
+* Base Decorator (MessageDecorator):
+Implements the same interface and holds a reference to a Message object.
+* Concrete Decorators:
+-ReverseTextDecorator: Reverses the text.
+-UppercaseDecorator: Converts text to uppercase.
+-EncryptionDecorator: Applies ROT13 encryption.
 * Client Code: 
--Builds a hierarchical structure of files and folders.
--Works with the structure using the abstract FilesystemItem interface.
-
-<!--
-## CurrencyConverter:
-In this scenario, we'll implement a drawing tool where the abstraction represents different shapes (like circles and rectangles), and the implementation focuses on different rendering methods (like vector rendering and raster rendering).
-### Explanation:
-* Abstraction (Shape): 
--Represents the concept of a shape.
--Delegates the rendering logic to the Renderer implementation.
-* Refined Abstractions  (Circle, Rectangle): 
--Extend the abstraction to include specific shapes.
-* Implementation (Renderer Interface):
--Represents the interface for payment gateways like PayPal or Stripe.
-* Concrete Implementations (VectorRenderer, RasterRenderer): 
--Implement rendering logic for vector graphics and raster graphics, respectively.
-* Client Code: 
--Works with any combination of shapes and renderers.
--->
+Demonstrates the dynamic composition of decorators to modify the message.
