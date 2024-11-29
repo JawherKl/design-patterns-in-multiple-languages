@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern
+| Factory Method Design Pattern - Social Network Example
 |--------------------------------------------------------------------------
 | Implement Factory Method Design Pattern to create objects without specifying
 | the exact class of object that will be created.

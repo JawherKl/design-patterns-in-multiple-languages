@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Singleton Design Pattern - Database Connection
+| Singleton Design Pattern - Database Connection Example
 |--------------------------------------------------------------------------
 | Implement Singleton Design Pattern for database connection management.
 |--------------------------------------------------------------------------

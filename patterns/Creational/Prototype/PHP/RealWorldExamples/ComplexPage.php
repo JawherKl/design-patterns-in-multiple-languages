@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Prototype Design Pattern - Prototype
+| Prototype Design Pattern - Complex Page Example
 |--------------------------------------------------------------------------
 | Implement Prototype Design Pattern to create objects without specifying
 | the exact class of object that will be created.

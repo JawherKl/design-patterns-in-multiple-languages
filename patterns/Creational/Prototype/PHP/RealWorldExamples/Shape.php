@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Prototype Design Pattern - Example
+| Prototype Design Pattern - Shape Example
 |--------------------------------------------------------------------------
 | Implement the Prototype Design Pattern to clone shape objects, 
 | avoiding the need for subclass-specific object creation processes.

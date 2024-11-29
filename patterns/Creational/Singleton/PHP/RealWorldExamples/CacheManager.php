@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Singleton Design Pattern - Cache Manager
+| Singleton Design Pattern - Cache Manager Example
 |--------------------------------------------------------------------------
 | Implement Singleton Design Pattern for cache management.
 |--------------------------------------------------------------------------
