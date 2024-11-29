@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Bridge Design Pattern - Bridge
+| Bridge Design Pattern - Device Controller
 |--------------------------------------------------------------------------
 | Implement Bridge Design Pattern to create objects without specifying
 | the exact class of object that will be created.
