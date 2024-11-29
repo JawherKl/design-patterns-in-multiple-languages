@@ -2,9 +2,9 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Builder
+| Builder Design Pattern - Builder
 |--------------------------------------------------------------------------
-| This example demonstrates the Factory Method Design Pattern to send various
+| This example demonstrates the Builder Design Pattern to send various
 | types of notifications (Email, SMS).
 |--------------------------------------------------------------------------
 | @category  Design Pattern

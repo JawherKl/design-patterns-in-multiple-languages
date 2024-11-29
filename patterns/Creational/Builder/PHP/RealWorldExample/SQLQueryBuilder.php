@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Builder
+| Builder Design Pattern - SQL Query Builder
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern to send various
 | types of notifications (Email, SMS).
