@@ -1,7 +1,7 @@
 [ Switch to French 🇫🇷](README_fr.md)
 
 # Design-patterns
-In this project, I will provide examples of all major design patterns and demonstrate how they are implemented in PHP.
+In this project, I will provide examples of all major design patterns and demonstrate how they are implemented in PHP, Go, Js and Java.
 Studying and practicing all types of design patterns is crucial for software engineers for several reasons:
 
 ### 1. **Improved Problem-Solving Skills**  
