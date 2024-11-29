@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Abstract Factory
+| Abstract Factory Design Pattern - Abstract Factory
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern to send various
 | types of notifications (Email, SMS).
@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace Creational\AbstractFactory;
+namespace Creational\AbstractFactory\PHP;
 
 
 /**

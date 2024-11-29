@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Abstract Factory
+| Abstract Factory Design Pattern - SystemUI Components
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern to send various
 | types of notifications (Email, SMS).

@@ -2,13 +2,13 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Abstract Factory
+| Abstract Factory Design Pattern - Database Connections
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern to send various
 | types of notifications (Email, SMS).
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Creational/AbstractFactory/RealWorldExample
+| @package   Creational/AbstractFactory/PHP/RealWorldExample
 | @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
