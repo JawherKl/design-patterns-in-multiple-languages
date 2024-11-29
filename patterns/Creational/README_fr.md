@@ -1,7 +1,7 @@
 [ Passer en Anglais 🇬🇧](README.md)
 
 # Les Design Patterns Créationnels
-Ce dossier contient des exemples de **Design Patterns Créationnels** courants implémentés en PHP. Les patterns créationnels sont conçus pour gérer les mécanismes de création des objets, rendant le processus de création plus flexible et efficace.
+Ce dossier contient des exemples de **Design Patterns Créationnels** courants implémentés en PHP, Go, Js and Java. Les patterns créationnels sont conçus pour gérer les mécanismes de création des objets, rendant le processus de création plus flexible et efficace.
 
 ## Table des Matières
 1. [Design Pattern Prototype](#design-pattern-prototype)  

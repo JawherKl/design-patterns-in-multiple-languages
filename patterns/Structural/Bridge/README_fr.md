@@ -11,7 +11,7 @@ Cet exemple illustre la structure du modèle de conception Bridge et répond aux
 - Quels rôles ces classes jouent-elles ?  
 - Comment les éléments du modèle sont-ils liés entre eux ?  
 
-Après avoir compris la structure du modèle, il vous sera plus facile de saisir l'exemple suivant, basé sur un cas d'utilisation réel en PHP.  
+Après avoir compris la structure du modèle, il vous sera plus facile de saisir l'exemple suivant, basé sur un cas d'utilisation réel en PHP, Go, Js and Java.  
 
 ---
 
