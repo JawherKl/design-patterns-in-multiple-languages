@@ -6,7 +6,7 @@ This example illustrates the structure of the Prototype design pattern and focus
 * What roles do these classes play?
 * In what way the elements of the pattern are related?
 
-After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP use case.
+After learning about the pattern’s structure it’ll be easier for you to grasp the following example, based on a real-world PHP, Go, Js and Java use case.
 
 # Real World Example:
 ## Complex Page:

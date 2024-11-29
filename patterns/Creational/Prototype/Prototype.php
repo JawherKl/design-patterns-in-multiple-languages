@@ -29,7 +29,7 @@ class Prototype
     public $circularReference;
 
     /**
-     * PHP has built-in cloning support. You can `clone` an object without
+     * PHP, Go, Js and Java has built-in cloning support. You can `clone` an object without
      * defining any special methods as long as it has fields of primitive types.
      * Fields containing objects retain their references in a cloned object.
      * Therefore, in some cases, you might want to clone those referenced

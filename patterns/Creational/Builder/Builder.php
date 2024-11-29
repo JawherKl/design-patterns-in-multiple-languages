@@ -77,7 +77,7 @@ class ConcreteBuilder1 implements Builder
      * retrieving results. That's because various types of builders may create
      * entirely different products that don't follow the same interface.
      * Therefore, such methods cannot be declared in the base Builder interface
-     * (at least in a statically typed programming language). Note that PHP is a
+     * (at least in a statically typed programming language). Note that PHP, Go, Js and Java is a
      * dynamically typed language and this method CAN be in the base interface.
      * However, we won't declare it there for the sake of clarity.
      *
