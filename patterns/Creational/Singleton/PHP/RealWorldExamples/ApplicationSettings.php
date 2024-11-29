@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Singleton Design Pattern - Application Settings
+| Singleton Design Pattern - Application Settings Example
 |--------------------------------------------------------------------------
 | Implement Singleton Design Pattern for managing application settings.
 |--------------------------------------------------------------------------

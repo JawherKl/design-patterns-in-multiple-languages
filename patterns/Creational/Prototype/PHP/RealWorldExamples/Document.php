@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Prototype Design Pattern - Example
+| Prototype Design Pattern - Document Example
 |--------------------------------------------------------------------------
 | Implement the Prototype Design Pattern to create new instances by cloning 
 | existing objects, which can avoid costly initialization steps.

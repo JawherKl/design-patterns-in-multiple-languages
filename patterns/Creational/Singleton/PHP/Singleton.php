@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Singleton Design Pattern - Singleton
+| Singleton Design Pattern - Singleton Example
 |--------------------------------------------------------------------------
 | Implement Singleton Design Pattern to create objects without specifying
 | the exact class of object that will be created.
