@@ -41,14 +41,15 @@ Many patterns are geared towards optimizing system performance and scalability. 
 For software engineers, mastering design patterns is essential to writing better, maintainable, and scalable code. It leads to professional growth, fosters collaboration, and enables engineers to design systems that stand the test of time. Patterns are the tools that help bridge the gap between theoretical knowledge and practical, real-world software development.
 
 ### Resources:
-https://github.com/DesignPatternsPHP/DesignPatternsPHP
+[DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
 
-https://github.com/DovAmir/awesome-design-patterns
+[awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns
+)
 
-https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+[Design-Patterns-Elements-Reusable-Object-Oriented](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+)
 
-https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf
-
-https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+[Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf
+)
 
 <!--https://refactoring.guru/design-patterns-->
