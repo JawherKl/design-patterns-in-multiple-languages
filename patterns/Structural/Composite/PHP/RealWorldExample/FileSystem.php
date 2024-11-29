@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Structural Design Pattern - Composite
+| Composite Design Pattern - File System
 |--------------------------------------------------------------------------
 | Implement Composite Design Pattern to create a filesystem with files and
 | folders, allowing hierarchical structures.

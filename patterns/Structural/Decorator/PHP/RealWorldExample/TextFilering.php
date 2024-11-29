@@ -1,5 +1,21 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Decorator Design Pattern - Text Filering
+|--------------------------------------------------------------------------
+| Implement Decorator Design Pattern to create objects without specifying
+| the exact class of object that will be created.
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Decorator\RalWorldExample
+| @author    JawherKl
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+*/
+
 namespace RefactoringGuru\Decorator\RealWorld;
 
 /**

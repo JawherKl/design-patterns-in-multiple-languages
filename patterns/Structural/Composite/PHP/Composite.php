@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Structural Design Pattern - Composite
+| Composite Design Pattern - Composite
 |--------------------------------------------------------------------------
 | Implement Composite Design Pattern to create objects without specifying
 | the exact class of object that will be created.

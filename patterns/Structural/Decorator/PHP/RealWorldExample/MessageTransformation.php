@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Structural Design Pattern - Decorator
+| Decorator Design Pattern - Message Transformation
 |--------------------------------------------------------------------------
 | Implement Decorator Design Pattern to create objects without specifying
 | the exact class of object that will be created.
