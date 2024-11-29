@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Adapter Design Pattern - Adapter
+| Adapter Design Pattern - Currency Converter Example
 |--------------------------------------------------------------------------
 | Implement Adapter Design Pattern to create objects without specifying
 | the exact class of object that will be created.
