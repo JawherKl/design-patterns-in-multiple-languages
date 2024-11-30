@@ -5,14 +5,12 @@
 This folder includes examples of common **Creational Design Patterns** implemented in PHP, Go, Js and Java. Creational patterns are designed to handle object creation mechanisms, making the creation process more flexible and efficient.
 
 ## Table of Contents
-
 1. [Prototype Design Pattern](#prototype-design-pattern)
 2. [Singleton Design Pattern](#singleton-design-pattern)
 
 ---
 
 ### Prototype Design Pattern
-
 The **Prototype Design Pattern** allows you to create new objects by copying existing instances, known as prototypes, without directly depending on their classes. This pattern is helpful when the cost of creating a new object is high, and duplicating an existing instance provides a more efficient solution.
 
 #### Example: Page Prototype
