@@ -14,7 +14,6 @@ This folder includes examples of common **Creational Design Patterns** implement
 The **Prototype Design Pattern** allows you to create new objects by copying existing instances, known as prototypes, without directly depending on their classes. This pattern is helpful when the cost of creating a new object is high, and duplicating an existing instance provides a more efficient solution.
 
 #### Example: Page Prototype
-
 ```php
 <?php
 use Creational\Prototype\RealWorldExamples\Page;
