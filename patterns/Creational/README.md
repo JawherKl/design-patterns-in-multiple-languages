@@ -100,7 +100,6 @@ echo "Cached data: " . json_encode($cache->get('user_1')) . "\n";
 ---
 
 ## How to Use
-
 1. Clone or download this repository.
 2. Navigate to the desired pattern (e.g., `Prototype` or `Singleton`).
 3. Run examples in the terminal by executing:
