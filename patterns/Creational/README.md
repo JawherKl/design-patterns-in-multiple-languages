@@ -41,7 +41,6 @@ In this example:
 ---
 
 ### Singleton Design Pattern
-
 The **Singleton Design Pattern** ensures that only one instance of a class is created and provides a global access point to that instance. This pattern is particularly useful when one object should control shared resources or centralize a system-wide action.
 
 #### Example 1: Logger Singleton
