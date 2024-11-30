@@ -34,7 +34,6 @@ In this example:
 - When cloning the `Page` object, a copy is created with specific fields reset or modified (e.g., title prefixed with "Copy of", comments cleared).
 
 #### Use Cases
-
 - **When creating objects is costly** (e.g., complex or resource-intensive initialization).
 - **When you want to duplicate objects with specific changes**, such as creating multiple versions of a document.
 
@@ -92,7 +91,6 @@ echo "Cached data: " . json_encode($cache->get('user_1')) . "\n";
 ```
 
 #### Use Cases
-
 - **Logging**: When all application logs need to be managed centrally.
 - **Configuration Management**: When application configurations should be accessible globally.
 - **Database Connections**: To prevent multiple connections and reduce resource use.
@@ -110,5 +108,4 @@ echo "Cached data: " . json_encode($cache->get('user_1')) . "\n";
 ---
 
 ## License
-
 This project is licensed under the MIT License.
