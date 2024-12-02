@@ -1,0 +1,9 @@
+name,age,owner,breed,image,color,texture,fur,size
+Siri,3,Alice,Siamese,siamese.jpg,cream,smooth,short,medium
+Bob,5,John,Maine Coon,mainecoon.jpg,gray,fluffy,long,large
+Mittens,2,Linda,Bengal,bengal.jpg,spotted,sleek,short,medium
+Whiskers,4,Mark,Persian,persian.jpg,white,silky,long,small
+Shadow,1,Emily,Russian Blue,russianblue.jpg,blue,soft,short,medium
+Leo,3,Anna,Sphinx,sphinx.jpg,pink,soft,none,medium
+Fluffy,7,James,Ragdoll,ragdoll.jpg,white,fluffy,long,large
+Luna,6,Emma,British Shorthair,britishshorthair.jpg,gray,velvety,short,medium
