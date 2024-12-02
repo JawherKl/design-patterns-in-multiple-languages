@@ -1,4 +1,3 @@
-```md
 Le **Facade** est un patron de conception structurel qui fournit une interface simplifiée (mais limitée) à un système complexe de classes, de bibliothèques ou de frameworks.
 
 Bien que le **Facade** réduise la complexité globale de l'application, il aide également à regrouper les dépendances indésirables en un seul endroit.
@@ -44,4 +43,3 @@ Cet exemple démontre comment contrôler un système de domotique complexe via u
 
 3. **Code client :**  
    - Le client appelle des méthodes de haut niveau sur `SmartHomeFacade` au lieu d'interagir directement avec les sous-systèmes individuels.
-```
