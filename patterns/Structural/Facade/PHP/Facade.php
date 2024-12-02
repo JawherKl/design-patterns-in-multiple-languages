@@ -1,6 +1,22 @@
 <?php
 
-namespace RefactoringGuru\Facade\Conceptual;
+/*
+|--------------------------------------------------------------------------
+| Decorator Design Pattern - Decorator
+|--------------------------------------------------------------------------
+| Implement Decorator Design Pattern to create objects without specifying
+| the exact class of object that will be created.
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Decorator
+| @author    JawherKl
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+*/
+
+namespace Structural\Facade;
 
 /**
  * The Facade class provides a simple interface to the complex logic of one or
