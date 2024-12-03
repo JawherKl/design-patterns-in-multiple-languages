@@ -13,3 +13,15 @@ After learning about the pattern’s structure it’ll be easier for you to gras
 In this example, the Abstract Factory pattern provides an infrastructure for creating various types of templates for different elements of a web page.
 
 A web application can support different rendering engines at the same time, but only if its classes are independent of the concrete classes of rendering engines. Hence, the application’s objects must communicate with template objects only via their abstract interfaces. Your code shouldn’t create the template objects directly, but delegate their creation to special factory objects. Finally, your code shouldn’t depend on the factory objects either but, instead, should work with them via the abstract factory interface.
+
+<!--
+Java Execute:
+1-$cd patterns/Creational/AbstractFactory/Java/
+2-$javac -d . ClientAbstractFactory.java
+3-$java patterns.Creational.AbstractFactory.Java.ClientAbstractFactory
+
+Other Execution:
+$php path_to_the_file
+$go run path_to_the_file
+$node path_to_the_file
+-->
