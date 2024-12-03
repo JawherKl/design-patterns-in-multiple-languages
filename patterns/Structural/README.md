@@ -4,14 +4,14 @@
 
 This folder includes examples of common **Structural Design Patterns** implemented in PHP, Go, JavaScript, and Java. Structural patterns focus on how objects and classes are composed to form larger structures, ensuring flexibility and efficiency in their relationships.
 
-## Table of Contents
-1. [Adapter Design Pattern](#Adapter)  
-2. [Bridge Design Pattern](#Bridge)  
-3. [Composite Design Pattern](#Composite)  
-4. [Decorator Design Pattern](#Decorator)  
-5. [Facade Design Pattern](#Facade)  
-6. [Flyweight Design Pattern](#Flyweight)  
-7. [Proxy Design Pattern](#Proxy)
+## Table of Contents  
+1. [Adapter Design Pattern](#adapter-design-pattern)  
+2. [Bridge Design Pattern](#bridge-design-pattern)  
+3. [Composite Design Pattern](#composite-design-pattern)  
+4. [Decorator Design Pattern](#decorator-design-pattern)  
+5. [Facade Design Pattern](#facade-design-pattern)  
+6. [Flyweight Design Pattern](#flyweight-design-pattern)  
+7. [Proxy Design Pattern](#proxy-design-pattern)
 
 ---
 

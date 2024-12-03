@@ -5,13 +5,13 @@
 Ce dossier comprend des exemples courants de **Modèles de Conception Structurels** implémentés en PHP, Go, JavaScript et Java. Les modèles structurels se concentrent sur la manière dont les objets et les classes sont composés pour former des structures plus larges, garantissant flexibilité et efficacité dans leurs relations.
 
 ## Table des Matières  
-1. [Modèle de Conception Adaptateur](#Adapter)  
-2. [Modèle de Conception Pont](#Bridge)  
-3. [Modèle de Conception Composite](#Composite)  
-4. [Modèle de Conception Décorateur](#Decorator)  
-5. [Modèle de Conception Façade](#Facade)  
-6. [Modèle de Conception Poids-Mouche](#Flyweight)  
-7. [Modèle de Conception Proxy](#Proxy)
+1. [Modèle de Conception Adaptateur](#modèle-de-conception-adaptateur)  
+2. [Modèle de Conception Pont](#modèle-de-conception-pont)  
+3. [Modèle de Conception Composite](#modèle-de-conception-composite)  
+4. [Modèle de Conception Décorateur](#modèle-de-conception-décorateur)  
+5. [Modèle de Conception Façade](#modèle-de-conception-façade)  
+6. [Modèle de Conception Poids-Mouche](#modèle-de-conception-poids-mouche)  
+7. [Modèle de Conception Proxy](#modèle-de-conception-proxy)
 
 ---
 
