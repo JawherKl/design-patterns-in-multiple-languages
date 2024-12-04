@@ -2,18 +2,37 @@
 
 /*
 |--------------------------------------------------------------------------
-| Builder Design Pattern - Builder
+| Builder Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| This example demonstrates the Builder Design Pattern to send various
-| types of notifications (Email, SMS).
+| This example demonstrates the Builder Design Pattern, which is used to 
+| construct complex objects step by step. It separates the construction 
+| process from the representation, allowing the same construction process 
+| to create different representations.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/Builder
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
-| @link      https://github.com/JawherKl/design-patterns-in-php
+| @author    JawherKl
+| @link      https://github.com/JawherKl/design-patterns-in-multiple-languages
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. Builder Interface: Defines the construction steps for creating parts of 
+|    the Product.
+| 2. Concrete Builder: Implements the steps defined in the Builder interface 
+|    to create specific product parts.
+| 3. Product: Represents the complex object being constructed.
+| 4. Director: Orchestrates the construction steps to build the product in a 
+|    specific sequence.
+| 5. Client Code: Uses the Director and Builder to create products.
+|--------------------------------------------------------------------------
+| Use Case:
+| This pattern is useful when creating objects that require multiple steps 
+| or configurations. In this example, it demonstrates assembling a product 
+| with multiple parts (PartA, PartB, PartC), either minimally or fully 
+| featured.
+|
 */
 
 namespace Creational\Builder;

@@ -2,18 +2,27 @@
 
 /*
 |--------------------------------------------------------------------------
-| Singleton Design Pattern - Singleton Example
+| Singleton Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Singleton Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Singleton Design Pattern, which ensures a 
+| class has only one instance and provides a global point of access to it.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/Singleton
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Singleton Class**: Implements the `getInstance` method for managing 
+|    the single instance.
+| 2. **Static Instance Storage**: Ensures only one instance per subclass.
+| 3. **Client Code**: Demonstrates that the same instance is returned.
+|
+| Use Case:
+| Use the Singleton pattern when only one instance of a class should exist, 
+| such as in managing database connections or configuration settings.
 */
 
 namespace Creational\Singleton;

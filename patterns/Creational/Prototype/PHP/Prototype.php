@@ -2,18 +2,29 @@
 
 /*
 |--------------------------------------------------------------------------
-| Prototype Design Pattern - Prototype
+| Prototype Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Prototype Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Prototype Design Pattern, which allows 
+| copying objects without depending on their classes, instead relying on a 
+| cloning interface.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/Prototype
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Prototype Class**: Implements the `__clone()` method for deep cloning.
+| 2. **ComponentWithBackReference**: Demonstrates cloning complex objects with
+|    back references to the original Prototype instance.
+| 3. **Client Code**: Shows how cloning works and validates deep vs shallow 
+|    copies.
+|
+| Use Case:
+| Use the Prototype pattern when object creation is expensive or when an 
+| object’s state is complex and you'd like to avoid recomputing or reconstructing it.
 */
 
 namespace Creational\Prototype;

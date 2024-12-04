@@ -4,15 +4,62 @@
 |--------------------------------------------------------------------------
 | Chain of Responsibility Design Pattern - Chain of Responsibility
 |--------------------------------------------------------------------------
-| This example demonstrates the Chain of Responsibility Method Design Pattern.
+| This example demonstrates the Chain of Responsibility Design Pattern, which
+| allows passing a request along a chain of handlers, giving each handler a
+| chance to process the request or pass it to the next handler in the chain.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Creational/ChainOfResponsibility
-| @author    JawherKl
+| @package   Behavioral/ChainOfResponsibility
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Handler Interface**: Declares a method for setting the next handler in
+|    the chain and a method for processing the request.
+|
+| 2. **AbstractHandler Class**: Provides default behavior for chaining and
+|    passing the request along the chain.
+|
+| 3. **Concrete Handlers**: These classes implement the handling logic. Each
+|    concrete handler either processes a specific request or passes it to the
+|    next handler in the chain. In this case, we have handlers for the monkey,
+|    squirrel, and dog.
+|
+| 4. **Client Code**: Sends a request to the first handler in the chain, and
+|    each handler decides whether to handle it or pass it along to the next
+|    handler.
+|
+| Benefits:
+| - **Decoupling**: The client doesn't need to know which handler will
+|   process the request, making it easier to add new handlers without
+|   affecting the client.
+| - **Flexible Handling**: Multiple handlers can be added or removed without
+|   changing the client code.
+| - **Improved Maintainability**: Each handler can focus on a single task,
+|   making the system easier to maintain.
+|
+| Drawbacks:
+| - **Performance**: In chains with many handlers, it could take longer to
+|   find the appropriate handler for a request.
+| - **Complexity**: Managing long chains or subchains can introduce
+|   complexity if not carefully structured.
+|
+| When to Use:
+| - When you need to pass a request to multiple handlers, but you're unsure
+|   which one will be able to handle it.
+| - When you want to avoid coupling between the sender of the request and
+|   the receivers.
+| - When you want to add or remove handlers dynamically without modifying the
+|   client code.
+|
+| Example Use Cases:
+| - Event handling in user interfaces, where different handlers process
+|   events based on type or source.
+| - Request processing pipelines, such as HTTP request handling in web
+|   servers.
+| - Workflow systems, where tasks are passed along a chain of steps.
 */
 
 namespace patterns\Behavioral\ChainOfResponsibility\PHP;

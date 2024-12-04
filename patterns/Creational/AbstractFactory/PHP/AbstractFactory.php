@@ -2,18 +2,32 @@
 
 /*
 |--------------------------------------------------------------------------
-| Abstract Factory Design Pattern - Abstract Factory
+| Abstract Factory Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| This example demonstrates the Abstract Factory Method Design Pattern to send various
-| types of notifications (Email, SMS).
+| This example demonstrates the Abstract Factory Design Pattern to create 
+| different types of related objects (Product A and Product B) that are part 
+| of a family. The Abstract Factory provides an interface for creating families 
+| of related or dependent objects without specifying their concrete classes.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/AbstractFactory
 | @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
-| @link      https://github.com/JawherKl/design-patterns-in-php
+| @link      https://github.com/JawherKl/design-patterns-in-multiple-languages
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. AbstractFactory: Declares the methods for creating abstract products.
+| 2. ConcreteFactory: Implements the creation methods for specific product variants.
+| 3. AbstractProduct: Declares interfaces for a type of product.
+| 4. ConcreteProduct: Implements the abstract product interfaces with specific variants.
+| 5. Client Code: Uses the Abstract Factory to work with products through abstract types.
+|
+| This example includes two concrete factories (ConcreteFactory1 and ConcreteFactory2)
+| that produce two families of products (ProductA and ProductB) in two variants.
+| The client code interacts only with interfaces, promoting flexibility and extensibility.
+|
 */
 
 namespace Creational\AbstractFactory\PHP;
