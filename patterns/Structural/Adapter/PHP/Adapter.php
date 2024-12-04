@@ -2,18 +2,25 @@
 
 /*
 |--------------------------------------------------------------------------
-| Adapter Design Pattern - Adapter
+| Adapter Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Adapter Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Adapter Design Pattern, which allows 
+| incompatible interfaces to work together by creating an intermediary 
+| class (Adapter) that translates the interface of one class (Adaptee) 
+| into another (Target).
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Adapter
-| @author    JawherKl
+| @package   Structural/Adapter
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Target Interface**: Defines the interface expected by client code.
+| 2. **Adaptee Class**: Contains the existing interface with incompatible methods.
+| 3. **Adapter Class**: Converts the Adaptee's interface into the Target interface.
+| 4. **Client Code**: Works with objects that follow the Target interface.
 */
 
 namespace Structural\Adapter;

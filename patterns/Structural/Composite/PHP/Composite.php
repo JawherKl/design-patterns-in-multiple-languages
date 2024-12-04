@@ -2,18 +2,39 @@
 
 /*
 |--------------------------------------------------------------------------
-| Composite Design Pattern - Composite
+| Composite Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Composite Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Composite Design Pattern, which allows you
+| to treat individual objects and compositions of objects uniformly. This is 
+| particularly useful for representing part-whole hierarchies or tree structures.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Composite
-| @author    JawherKl
+| @package   Structural/Composite
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Component (Abstract Class)**: Declares the interface for all objects in the 
+|    composition, both leaves and composites. Provides default implementations 
+|    for managing child components.
+|
+| 2. **Leaf (Concrete Class)**: Represents the end objects in the composition. 
+|    Performs actual work and cannot have children.
+|
+| 3. **Composite (Concrete Class)**: Represents a complex component that can 
+|    have children (other leaves or composites). Manages child components and 
+|    delegates operations to them.
+|
+| 4. **Client Code**: Works uniformly with all components (both simple and complex) 
+|    via the common interface.
+|
+| Benefits:
+| - **Uniformity**: Simplifies client code by allowing uniform treatment of individual
+|   objects and object compositions.
+| - **Flexibility**: Easily add new types of components without modifying existing code.
+| - **Tree Structures**: Ideal for tree-like structures such as file systems, menus, etc.
 */
 
 namespace Structural\Composite;

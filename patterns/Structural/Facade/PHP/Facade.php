@@ -2,18 +2,45 @@
 
 /*
 |--------------------------------------------------------------------------
-| Decorator Design Pattern - Decorator
+| Facade Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Decorator Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Facade Design Pattern, which provides a 
+| simplified interface to a complex subsystem, shielding clients from 
+| the subsystem's complexity and helping to organize and manage the 
+| interaction with multiple subsystems.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Decorator
-| @author    JawherKl
+| @package   Structural/Facade
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Facade Class**: Provides a simple interface for interacting with 
+|    multiple subsystems. The facade delegates requests from the client 
+|    to the appropriate subsystem objects and simplifies their interaction.
+|
+| 2. **Subsystem Classes**: Represent the complex components that perform 
+|    specific tasks. They contain detailed logic that is abstracted by the 
+|    facade to make client interactions easier.
+|
+| 3. **Client Code**: Interacts only with the Facade, not with individual 
+|    subsystems. This keeps the client code clean and simple while still 
+|    allowing access to complex functionality through the facade.
+|
+| Benefits:
+| - **Simplification**: Provides a high-level interface that hides the 
+|   complexity of the subsystems.
+| - **Loose Coupling**: The client is decoupled from the subsystems, only 
+|   interacting with the Facade.
+| - **Centralized Control**: The Facade centralizes and manages the 
+|   interaction between subsystems, making the system easier to maintain.
+|
+| Drawbacks:
+| - **Limited Flexibility**: The Facade can only expose the functionality 
+|   that is defined in the facade methods. If more detailed control is needed 
+|   over the subsystems, the client would need to interact with them directly.
 */
 
 namespace Structural\Facade;

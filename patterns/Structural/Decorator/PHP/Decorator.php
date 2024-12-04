@@ -2,18 +2,43 @@
 
 /*
 |--------------------------------------------------------------------------
-| Decorator Design Pattern - Decorator
+| Decorator Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Decorator Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Decorator Design Pattern, which allows 
+| behavior to be added to an individual object, without affecting the 
+| behavior of other objects from the same class.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Decorator
-| @author    JawherKl
+| @package   Structural/Decorator
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Component Interface**: Defines the common interface for both simple 
+|    components and decorators, ensuring that they can be used interchangeably.
+|
+| 2. **ConcreteComponent**: Implements the `Component` interface and provides 
+|    the default behavior for the operation.
+|
+| 3. **Decorator Class**: Implements the `Component` interface and wraps a 
+|    `Component` object. It delegates the work to the wrapped component while 
+|    allowing additional behavior to be added.
+|
+| 4. **ConcreteDecorators**: Extend the `Decorator` class and add additional 
+|    functionality or modify the behavior of the wrapped component.
+|
+| 5. **Client Code**: Interacts with the `Component` interface, allowing 
+|    the client to work with simple components or decorated components without 
+|    being aware of the specific implementation.
+|
+| Benefits:
+| - **Extensibility**: New functionality can be added to an object without 
+|   changing its class.
+| - **Flexibility**: Multiple decorators can be combined to compose new behaviors.
+| - **Separation of Concerns**: The decoration logic is isolated in separate 
+|   decorator classes, keeping the original component simple and focused.
 */
 
 namespace Structural\Decorator;

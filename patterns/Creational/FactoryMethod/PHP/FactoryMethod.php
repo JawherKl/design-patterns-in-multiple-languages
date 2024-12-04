@@ -2,18 +2,36 @@
 
 /*
 |--------------------------------------------------------------------------
-| Factory Method Design Pattern - Factory Method
+| Factory Method Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Factory Method Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Factory Method Design Pattern, which defines 
+| an interface for creating an object but allows subclasses to alter the type 
+| of objects that will be created.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
-| @link      https://github.com/JawherKl/design-patterns-in-php
+| @link      https://github.com/JawherKl/design-patterns-in-multiple-languages
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. Creator (Abstract Class): Declares the factory method that returns 
+|    Product objects. It may contain core business logic that relies on the 
+|    Product objects.
+| 2. Concrete Creators: Override the factory method to create specific 
+|    ConcreteProduct instances.
+| 3. Product (Interface): Defines the common interface that all products must 
+|    implement.
+| 4. Concrete Products: Implement the Product interface, providing different 
+|    implementations of the `operation` method.
+| 5. Client Code: Works with the Creator and Product via their abstract 
+|    interfaces, ensuring flexibility and decoupling.
+|--------------------------------------------------------------------------
+| Use Case:
+| Use the Factory Method pattern when a class cannot anticipate the type of 
+| objects it must create or when a class wants its subclasses to specify the 
+| objects it creates.
 */
 
 namespace Creational\FactoryMethod;

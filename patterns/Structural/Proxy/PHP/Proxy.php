@@ -1,5 +1,56 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Proxy Design Pattern - Implementation Example
+|--------------------------------------------------------------------------
+| This example demonstrates the Proxy Design Pattern, which provides an object
+| that acts as an intermediary to control access to another object. Proxies
+| typically handle operations such as lazy loading, caching, or access control
+| to ensure that the real object is only accessed when necessary.
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Structural/Proxy
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Subject Interface**: Declares common methods that both the RealSubject
+|    and Proxy implement. This allows the client code to interact with either
+|    the real object or the proxy without knowing the difference.
+|
+| 2. **RealSubject Class**: Contains the core business logic and actual
+|    functionality that needs to be accessed. It performs the actual work but
+|    may be slow or sensitive to direct access, making it a good candidate for
+|    a proxy.
+|
+| 3. **Proxy Class**: Provides a controlled access point to the RealSubject.
+|    It can add extra functionality such as lazy loading, caching, logging,
+|    or access control. The Proxy delegates requests to the RealSubject after
+|    performing any necessary checks or operations.
+|
+| 4. **Client Code**: Works with both the RealSubject and Proxy through the
+|    Subject interface. The client does not need to know whether it is using
+|    a real object or a proxy; it just calls the request method on the Subject.
+|
+| Benefits:
+| - **Lazy Loading**: A Proxy can delay the creation or access to a resource
+|   until it is actually needed.
+| - **Access Control**: A Proxy can restrict access to the RealSubject by
+|   performing security checks before forwarding the request.
+| - **Enhanced Functionality**: A Proxy can add additional functionality such
+|   as logging, caching, or monitoring to operations without modifying the
+|   RealSubject itself.
+|
+| Drawbacks:
+| - **Complexity**: Introducing a Proxy adds an extra layer of indirection,
+|   which can make the system more complex to understand and maintain.
+| - **Overhead**: Using a Proxy adds additional method calls and overhead, 
+|   which may not be necessary for all applications.
+*/
+
 namespace Structural\Proxy\Conceptual;
 
 /**

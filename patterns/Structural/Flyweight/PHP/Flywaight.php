@@ -2,18 +2,49 @@
 
 /*
 |--------------------------------------------------------------------------
-| Flyweight Design Pattern - Flyweight
+| Flyweight Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Flyweight Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Flyweight Design Pattern, which is used 
+| to reduce memory usage by sharing common data between multiple objects.
+| The pattern stores common state (intrinsic state) shared across objects 
+| while keeping unique state (extrinsic state) external to the objects.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Flyweight
-| @author    JawherKl
+| @package   Structural/Flyweight
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Flyweight Class**: Represents the shared objects that store the common 
+|    state (intrinsic state) for all instances. It does not store unique 
+|    states, which are passed in as parameters when performing operations.
+|
+| 2. **FlyweightFactory Class**: Manages the creation and reuse of Flyweight 
+|    objects. It ensures that Flyweights are shared correctly and reused 
+|    when needed, minimizing memory consumption by avoiding object duplication.
+|
+| 3. **Client Code**: Interacts with the FlyweightFactory to add extrinsic state 
+|    (unique information like plates and owners) and perform operations with 
+|    the Flyweight instances. The client does not create Flyweights directly 
+|    but requests them from the factory.
+|
+| Benefits:
+| - **Memory Efficiency**: The Flyweight pattern helps save memory by sharing 
+|   common data across objects and only storing unique data externally.
+| - **Scalability**: Flyweights allow the system to handle a large number of 
+|   objects without overwhelming memory resources.
+| - **Centralized Control**: The FlyweightFactory ensures the correct reuse 
+|   of Flyweights, which is useful for optimizing performance and managing 
+|   the life cycle of the shared state.
+|
+| Drawbacks:
+| - **Complexity**: The pattern introduces additional complexity in the code, 
+|   as it requires managing both intrinsic and extrinsic state separately.
+| - **Limited Flexibility**: Flyweight instances can only be used for data 
+|   that is shared across many objects. If each object needs significantly 
+|   different data, this pattern may not be the best solution.
 */
 
 namespace Structural\Flyweight;

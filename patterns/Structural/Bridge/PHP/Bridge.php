@@ -2,18 +2,42 @@
 
 /*
 |--------------------------------------------------------------------------
-| Bridge Design Pattern - Bridge
+| Bridge Design Pattern - Implementation Example
 |--------------------------------------------------------------------------
-| Implement Bridge Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Bridge Design Pattern, which decouples an 
+| abstraction from its implementation, allowing the two to vary independently.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Bridge
-| @author    JawherKl
+| @package   Structural/Bridge
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Abstraction**: Defines the interface for the abstraction's control 
+|    and maintains a reference to an object of the Implementation hierarchy.
+|
+| 2. **Extended Abstraction**: Adds more functionality without modifying 
+|    the implementation classes.
+|
+| 3. **Implementation Interface**: Defines the interface for all implementation 
+|    classes, typically providing primitive operations that are used by the 
+|    abstraction.
+|
+| 4. **Concrete Implementations**: Provide platform-specific behavior by 
+|    implementing the Implementation interface.
+|
+| 5. **Client Code**: Interacts with the abstraction and can work with any 
+|    combination of abstraction and implementation.
+|
+| Benefits:
+| - **Decoupling**: Separates abstraction from implementation, promoting loose 
+|   coupling.
+| - **Flexibility**: Enables new abstractions and implementations to be added 
+|   independently.
+| - **Scalability**: Supports different combinations of abstractions and 
+|   implementations without changing the client code.
 */
 
 namespace Structural\Bridge;
