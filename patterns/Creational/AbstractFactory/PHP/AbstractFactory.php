@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------------
 | Abstract Factory Design Pattern - Abstract Factory
 |--------------------------------------------------------------------------
-| This example demonstrates the Factory Method Design Pattern to send various
+| This example demonstrates the Abstract Factory Method Design Pattern to send various
 | types of notifications (Email, SMS).
 |--------------------------------------------------------------------------
 | @category  Design Pattern
