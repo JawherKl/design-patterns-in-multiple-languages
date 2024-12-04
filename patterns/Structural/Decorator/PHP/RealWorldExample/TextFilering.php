@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace RefactoringGuru\Decorator\RealWorld;
+namespace patterns\Structural\Decorator\RealWorldExample;
 
 /**
  * The Component interface declares a filtering method that must be implemented

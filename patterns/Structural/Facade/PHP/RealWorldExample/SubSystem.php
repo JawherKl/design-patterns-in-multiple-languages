@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace RefactoringGuru\Facade\RealWorld;
+namespace patterns\Structural\Facade\RealWorldExample;
 
 /**
  * The Facade provides a single method for downloading videos from YouTube. This

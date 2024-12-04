@@ -16,7 +16,7 @@
 |--------------------------------------------------------------------------
 */
 
-namespace RefactoringGuru\Bridge\RealWorld;
+namespace patterns\Structural\Bridge\RealWorldExample;
 
 /**
  * The Abstraction.
