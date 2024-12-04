@@ -1,0 +1,3 @@
+2024-12-04 10:56:19: 'users:init' with data '"\/home\/jkallel\/Documents\/design-patterns-in-multiple-languages\/patterns\/Behavioral\/Observer\/PHP\/RealWorldExample\/users.csv"'
+2024-12-04 10:56:19: 'users:created' with data '{"attributes":{"name":"John Doe","email":"johndoe@example.com","id":"58d8f7ed366e15e59661fe6a41e91369"}}'
+2024-12-04 10:56:19: 'users:deleted' with data '{"attributes":{"name":"John Doe","email":"johndoe@example.com","id":"58d8f7ed366e15e59661fe6a41e91369"}}'

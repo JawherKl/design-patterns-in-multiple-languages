@@ -98,7 +98,7 @@ interface Observer
  * methods. Like any other component, this class relies on the EventDispatcher
  * to broadcast its events and listen for the other ones.
  *
- * @see \RefactoringGuru\Observer\RealWorld\UserRepository
+ * @see patterns\Behavioral\Mediator\PHP\RealWorldExample\EventDispatcher
  */
 class UserRepository implements Observer
 {
