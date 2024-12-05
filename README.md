@@ -52,4 +52,8 @@ For software engineers, mastering design patterns is essential to writing better
 [Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf
 )
 
+[codewars-design-patterns]https://www.codewars.com/collections/design-patterns
+
+[leetcode-design-patterns]https://leetcode.com/problem-list/design/
+
 <!--https://refactoring.guru/design-patterns-->
