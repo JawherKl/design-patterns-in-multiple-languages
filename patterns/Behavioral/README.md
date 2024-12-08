@@ -1,7 +1,6 @@
 [🇫🇷 Switch to French](README_fr.md)
 
 # Behavioral Design Patterns
-
 This folder includes examples of common **Behavioral Design Patterns** implemented in PHP, Go, JavaScript, and Java. Behavioral patterns focus on the interaction between objects, ensuring that they work together effectively and efficiently, often describing how responsibility is distributed among them.
 
 ## Table of Contents  
