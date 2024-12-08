@@ -309,7 +309,6 @@ Dans cet exemple :
    ```bash  
    php chemin/vers/votre/exemple.php  
    ```
-
 ---
 
 ## Licence  
