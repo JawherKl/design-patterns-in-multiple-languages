@@ -5,15 +5,37 @@
 | Factory Method Design Pattern - Payment Gateway Example
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern used to handle
-| different types of payment gateway processors (e.g., PayPal, Stripe).
+| various types of payment gateway processors, such as PayPal and Stripe. 
+| The design encapsulates object creation to allow flexible extension of 
+| payment gateways without altering client code.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/FactoryMethod/RealWorldExample
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
+| @author    JawherKl
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. PaymentProcessor (Abstract Class): Declares the factory method that must 
+|    return objects implementing PaymentGatewayConnector. It may include common
+|    payment processing logic.
+| 2. Concrete Payment Processors: Implement the factory method to create specific
+|    payment gateway connectors (e.g., PayPalConnector, StripeConnector).
+| 3. PaymentGatewayConnector (Interface): Defines the contract for all payment 
+|    gateway connectors, ensuring consistent behavior such as `connect`, `pay`, 
+|    and `disconnect`.
+| 4. Concrete Payment Gateway Connectors: Provide concrete implementations of 
+|    the PaymentGatewayConnector interface for specific gateways.
+| 5. Client Code: Works with PaymentProcessor and PaymentGatewayConnector via 
+|    their abstract interfaces, enabling flexibility and adherence to the 
+|    open/closed principle.
+|--------------------------------------------------------------------------
+| Use Case:
+| Use the Factory Method pattern when a class needs to create objects but wants 
+| to defer the instantiation logic to its subclasses, allowing for flexible 
+| extension and easier maintenance.
 */
 
 namespace Creational\FactoryMethod\RealWorldExamples;
