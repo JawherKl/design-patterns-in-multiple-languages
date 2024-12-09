@@ -5,15 +5,35 @@
 | Factory Method Design Pattern - Notification Example
 |--------------------------------------------------------------------------
 | This example demonstrates the Factory Method Design Pattern to send various
-| types of notifications (Email, SMS).
+| types of notifications (Email, SMS). It defines a structure for creating 
+| notification services without specifying their concrete classes, promoting 
+| flexibility and scalability.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/FactoryMethod/RealWorldExample
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
+| @author    JawherKl
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. NotificationSender (Abstract Class): Declares the factory method that 
+|    returns NotificationService objects. It may also contain core logic for 
+|    sending notifications.
+| 2. Concrete Notification Senders: Override the factory method to create 
+|    specific NotificationService instances (e.g., EmailService, SMSService).
+| 3. NotificationService (Interface): Defines the contract for all notification
+|    services, including methods to connect, send, and disconnect.
+| 4. Concrete Notification Services: Implement the NotificationService 
+|    interface, providing specific implementations for Email and SMS.
+| 5. Client Code: Works with the NotificationSender and NotificationService 
+|    via their abstract interfaces, ensuring flexibility and decoupling.
+|--------------------------------------------------------------------------
+| Use Case:
+| Use the Factory Method pattern when a class needs to delegate the instantiation
+| of specific notification services to its subclasses or when you want to simplify 
+| object creation while adhering to the open/closed principle.
 */
 
 namespace Creational\FactoryMethod\NotificationSystem;
