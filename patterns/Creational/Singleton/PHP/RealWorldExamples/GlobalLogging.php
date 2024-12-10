@@ -4,16 +4,31 @@
 |--------------------------------------------------------------------------
 | Singleton Design Pattern - Global Logging Example
 |--------------------------------------------------------------------------
-| Implement Singleton Design Pattern to create objects without specifying
-| the exact class of object that will be created.
+| This example demonstrates the Singleton Design Pattern, applied to a 
+| logging system. It ensures that only one instance of the Logger class 
+| is used throughout the application, providing a global access point 
+| for logging.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/Singleton
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Singleton Class**: Implements the `getInstance` method to ensure 
+|    only one instance of the Logger class is created.
+| 2. **Logger Class**: Provides the logging functionality and ensures 
+|    that the log file is managed by a single instance.
+| 3. **Config Class**: Demonstrates another application of the Singleton 
+|    pattern, storing application configuration settings globally.
+|
+| Use Case:
+| Use the Singleton pattern when you need a single, global point of access 
+| to an object, such as logging or configuration management, ensuring that 
+| only one instance exists to manage resources like file handles or 
+| settings.
 */
 
 namespace Creational\Singleton\RealWorldExamples;
