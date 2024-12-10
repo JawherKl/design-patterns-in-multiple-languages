@@ -4,18 +4,34 @@
 |--------------------------------------------------------------------------
 | Singleton Design Pattern - Application Settings Example
 |--------------------------------------------------------------------------
-| Implement Singleton Design Pattern for managing application settings.
+| This example demonstrates the Singleton Design Pattern for managing 
+| application settings, ensuring that only one instance of the settings 
+| is created and accessed globally.
 |--------------------------------------------------------------------------
 | @category  Design Pattern
 | @package   Creational/Singleton
-| @author    JawherKl
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
 |--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Singleton Class**: Implements the `getInstance` method to manage 
+|    the single instance of the settings.
+| 2. **Static Instance Storage**: Ensures only one instance of the class 
+|    is created.
+| 3. **Client Code**: Demonstrates accessing and modifying the singleton 
+|    instance to manage application settings.
+|
+| Use Case:
+| Use the Singleton pattern to manage a global instance that holds 
+| application-wide settings, ensuring that all parts of the application 
+| work with the same configuration.
 */
 
 namespace Creational\Singleton\RealWorldExamples;
+
+use Creational\Singleton\PHP\Singleton;
 
 /**
  * Application Settings Singleton
