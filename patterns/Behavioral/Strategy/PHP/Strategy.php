@@ -1,5 +1,35 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Strategy Design Pattern - Sorting Algorithm Example
+|--------------------------------------------------------------------------
+| This example demonstrates the Strategy Design Pattern, where the algorithm 
+| for sorting is defined in separate strategy classes. The context object 
+| delegates the sorting task to the current strategy, allowing it to 
+| switch between algorithms at runtime.
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Behavioral/Strategy
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+|
+| Key Components:
+| 1. **Context**: Defines the interface for interacting with different strategies 
+|    and delegates the business logic to the strategy object.
+| 2. **Strategy Interface**: Declares a method for performing the algorithm, 
+|    ensuring consistency across different strategy classes.
+| 3. **Concrete Strategies**: Provide specific implementations of the algorithm 
+|    (e.g., sorting in ascending or descending order).
+|
+| Use Case:
+| Use the Strategy pattern when you need to select an algorithm at runtime, 
+| enabling flexibility in changing algorithms without modifying the context 
+| or other strategies.
+*/
+
 namespace patterns\Behavioral\Strategy\PHP;
 
 /**
