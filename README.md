@@ -55,5 +55,3 @@ For software engineers, mastering design patterns is essential to writing better
 [codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
 
 [leetcode-design-patterns](https://leetcode.com/problem-list/design/)
-
-<!--https://refactoring.guru/design-patterns-->
