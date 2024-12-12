@@ -1,5 +1,3 @@
-
-
 /*
 |--------------------------------------------------------------------------
 | Singleton Design Pattern - Global Logging Example

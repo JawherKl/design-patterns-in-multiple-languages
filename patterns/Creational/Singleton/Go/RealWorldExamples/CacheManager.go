@@ -1,4 +1,3 @@
-
 /*
 |--------------------------------------------------------------------------
 | Singleton Design Pattern - Cache Manager Example
