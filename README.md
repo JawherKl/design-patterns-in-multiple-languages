@@ -43,11 +43,8 @@ For software engineers, mastering design patterns is essential to writing better
 ### Resources:
 [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
 [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
-[Design-Patterns-Elements-Reusable-Object-Oriented](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
-)
-
-[Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf
-)
+[Design-Patterns-Elements-Reusable-Object-Oriented](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+[Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
 
 [codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
 
