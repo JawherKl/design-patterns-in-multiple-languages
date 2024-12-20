@@ -1,3 +1,5 @@
+[ Passer en Anglais 🇬🇧](README.md)
+
 # Vue d'ensemble des Design Patterns
 
 Ce dépôt fournit un guide complet sur les **Design Patterns** en génie logiciel. Les design patterns sont des solutions éprouvées aux problèmes courants de conception logicielle. Ils favorisent la réutilisabilité, la flexibilité et la maintenabilité du code. Ci-dessous, nous explorons les trois principales catégories de design patterns :
