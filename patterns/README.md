@@ -1,3 +1,5 @@
+[ Switch to French 🇫🇷](README_fr.md)
+
 # Design Patterns Overview
 
 This repository provides a comprehensive guide to **Design Patterns** in software engineering. Design patterns are proven solutions to common problems in software design. They promote reusability, flexibility, and maintainability of code. Below, we explore the three main categories of design patterns:
