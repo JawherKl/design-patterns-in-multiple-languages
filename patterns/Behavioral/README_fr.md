@@ -1,4 +1,4 @@
-[ Passer en Anglais 🇬🇧](README.md)
+[🇬🇧 Switch to English](README.md)
 
 # Modèles de conception comportementaux
 
@@ -44,9 +44,9 @@ Dans cet exemple :
 ---
 
 ### Modèle de conception Commande (Command)  
-Le **Modèle Commande** encapsule une requête sous forme d'objet, permettant ainsi de paramétrer les clients avec des requêtes différentes ou de les mettre en file d'attente.
+Le **Modèle Commande** encapsule une requête sous forme d'objet, permettant de paramétrer les clients avec des requêtes différentes, de les mettre en file d'attente ou de les enregistrer pour un traitement ultérieur.
 
-#### Exemple : Commandes d'interrupteur  
+#### Exemple : Commandes pour un interrupteur  
 ```php  
 <?php  
 use Behavioral\Command\RealWorldExamples\Light;  
@@ -62,11 +62,57 @@ $remote->pressButton();
 ```  
 Dans cet exemple :  
 - `LightOnCommand` encapsule la demande d'allumer la lumière.  
-- `RemoteControl` agit comme un invocateur pour exécuter la commande.
+- Le `RemoteControl` agit comme un invocateur pour exécuter la commande.
 
 #### Cas d'utilisation  
-- Mise en file d'attente des requêtes dans les gestionnaires de tâches.  
+- File d'attente des requêtes dans les gestionnaires de tâches.  
 - Mécanismes d'annulation/rétablissement dans les applications.
+
+---
+
+### Modèle de conception Itérateur (Iterator)  
+Le **Modèle Itérateur** fournit un moyen de parcourir une collection d'éléments sans exposer sa représentation sous-jacente.
+
+#### Exemple : Itération sur une liste  
+```php  
+<?php  
+use Behavioral\Iterator\RealWorldExamples\BookCollection;  
+
+$books = new BookCollection();  
+$books->add("Book 1");  
+$books->add("Book 2");  
+
+foreach ($books as $book) {  
+    echo $book . "\n";  
+}  
+```  
+Dans cet exemple :  
+- `BookCollection` implémente une structure de collection itérable.  
+- L'itération est effectuée sans exposer les détails internes.
+
+#### Cas d'utilisation  
+- Parcourir des collections d'objets complexes.  
+- Génération dynamique de séquences.
+
+---
+
+### Modèle de conception Médiateur (Mediator)  
+Le **Modèle Médiateur** centralise la communication entre objets pour réduire les dépendances directes entre eux.
+
+#### Exemple : Interface utilisateur  
+```php  
+<?php  
+use Behavioral\Mediator\RealWorldExamples\UIComponent;  
+
+$ui = new UIComponent();  
+$ui->buttonClicked();  
+```  
+Dans cet exemple :  
+- Le `UIComponent` agit comme un médiateur entre les boutons et les autres composants de l'interface.
+
+#### Cas d'utilisation  
+- Interfaces utilisateur complexes.  
+- Coordination de workflows distribués.
 
 ---
 
@@ -98,8 +144,30 @@ Dans cet exemple :
 
 ---
 
+### Modèle de conception État (State)  
+Le **Modèle État** permet à un objet de modifier son comportement lorsque son état interne change.
+
+#### Exemple : Système de feux de circulation  
+```php  
+<?php  
+use Behavioral\State\RealWorldExamples\TrafficLight;  
+
+$trafficLight = new TrafficLight();  
+$trafficLight->changeState(); // Vert  
+$trafficLight->changeState(); // Jaune  
+$trafficLight->changeState(); // Rouge  
+```  
+Dans cet exemple :  
+- `TrafficLight` change dynamiquement de comportement selon son état actuel.
+
+#### Cas d'utilisation  
+- Machines à états finis dans les jeux ou moteurs de workflow.  
+- Composants d'interface utilisateur changeant de comportement selon l'état.
+
+---
+
 ### Modèle de conception Stratégie (Strategy)  
-Le **Modèle Stratégie** définit une famille d'algorithmes, les encapsule et les rend interchangeables dynamiquement.
+Le **Modèle Stratégie** définit une famille d'algorithmes, les encapsule et les rend interchangeables à l'exécution.
 
 #### Exemple : Stratégie de paiement  
 ```php  
@@ -120,25 +188,47 @@ Dans cet exemple :
 
 ---
 
-### Modèle de conception État (State)  
-Le **Modèle État** permet à un objet de modifier son comportement lorsque son état interne change.
+### Modèle de conception Méthode Template (Template Method)  
+Le **Modèle Méthode Template** définit l'ossature d'un algorithme dans une méthode, tout en laissant certaines étapes à des sous-classes.
 
-#### Exemple : Système de feux de circulation  
+#### Exemple : Génération de rapport  
 ```php  
 <?php  
-use Behavioral\State\RealWorldExamples\TrafficLight;  
+use Behavioral\TemplateMethod\RealWorldExamples\ReportGenerator;  
 
-$trafficLight = new TrafficLight();  
-$trafficLight->changeState(); // Vert  
-$trafficLight->changeState(); // Jaune  
-$trafficLight->changeState(); // Rouge  
+$report = new ReportGenerator();  
+$report->generate();  
 ```  
 Dans cet exemple :  
-- `TrafficLight` change dynamiquement de comportement selon son état actuel.
+- `ReportGenerator` fournit une méthode pour générer un rapport avec des étapes personnalisables.
 
 #### Cas d'utilisation  
-- Machines à états finis dans les jeux ou moteurs de workflow.  
-- Composants d'interface utilisateur changeant de comportement selon l'état.
+- Génération de documents ou de rapports.  
+- Pipelines de traitement standardisés.
+
+---
+
+### Modèle de conception Visiteur (Visitor)  
+Le **Modèle Visiteur** permet d’ajouter de nouvelles fonctionnalités à des objets existants sans modifier leur structure.
+
+#### Exemple : Calcul des impôts pour différents types d'actifs  
+```php  
+<?php  
+use Behavioral\Visitor\RealWorldExamples\TaxVisitor;  
+use Behavioral\Visitor\RealWorldExamples\Property;  
+use Behavioral\Visitor\RealWorldExamples\Car;  
+
+$taxVisitor = new TaxVisitor();  
+
+$property = new Property(500000);  
+$car = new Car(30000);  
+
+echo $property->accept($taxVisitor);  
+echo $car->accept($taxVisitor);  
+```  
+Dans cet exemple :  
+- `TaxVisitor` calcule l'impôt pour différents types d'actifs (`Property`, `Car`).  
+- Les classes `Property` et `Car` restent inchangées.
 
 ---
 
