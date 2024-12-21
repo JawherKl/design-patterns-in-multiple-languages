@@ -1,4 +1,4 @@
-[🇫🇷 Passer au français](README_fr.md)
+[ Passer en Anglais 🇬🇧](README.md)
 
 # Modèles de conception comportementaux
 
