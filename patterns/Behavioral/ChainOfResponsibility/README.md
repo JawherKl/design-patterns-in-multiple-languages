@@ -53,22 +53,21 @@ this example simulating a Customer Support System where a customer inquiry goes 
    - Tests various cases to see how the chain handles different types of issues.
 
 ### Output:
-
-```
-Case 1: Password reset request:
-BasicSupportHandler: Resolved the issue (Password reset).
-
-Case 2: Software bug report:
-BasicSupportHandler: Escalating the issue to the next level.
-TechnicalSupportHandler: Resolved the issue (Software bug fix).
-
-Case 3: Billing issue:
-BasicSupportHandler: Escalating the issue to the next level.
-TechnicalSupportHandler: Escalating the issue to the next level.
-ManagerSupportHandler: Resolved the issue (Billing issue).
-
-Case 4: Unknown issue:
-BasicSupportHandler: Escalating the issue to the next level.
-TechnicalSupportHandler: Escalating the issue to the next level.
-ManagerSupportHandler: Unable to resolve the issue. Please contact higher management.
-```
+   ```
+   Case 1: Password reset request:
+   BasicSupportHandler: Resolved the issue (Password reset).
+   
+   Case 2: Software bug report:
+   BasicSupportHandler: Escalating the issue to the next level.
+   TechnicalSupportHandler: Resolved the issue (Software bug fix).
+   
+   Case 3: Billing issue:
+   BasicSupportHandler: Escalating the issue to the next level.
+   TechnicalSupportHandler: Escalating the issue to the next level.
+   ManagerSupportHandler: Resolved the issue (Billing issue).
+   
+   Case 4: Unknown issue:
+   BasicSupportHandler: Escalating the issue to the next level.
+   TechnicalSupportHandler: Escalating the issue to the next level.
+   ManagerSupportHandler: Unable to resolve the issue. Please contact higher management.
+   ```
