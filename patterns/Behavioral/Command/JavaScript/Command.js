@@ -5,7 +5,7 @@
 | This example demonstrates the Command Design Pattern
 |--------------------------------------------------------------------------
 | @category  Design Pattern
-| @package   Behavioral/ChainOfResponsibility
+| @package   Behavioral/Command
 | @version   1.0.0
 | @license   MIT License
 | @link      https://github.com/JawherKl/design-patterns-in-php
