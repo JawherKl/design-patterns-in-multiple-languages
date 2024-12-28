@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Chain of Responsibility Design Pattern - Command
+| Command Design Pattern
 |--------------------------------------------------------------------------
 | This example demonstrates the Command Design Pattern
 |--------------------------------------------------------------------------
