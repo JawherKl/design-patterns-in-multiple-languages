@@ -1,3 +1,18 @@
+/*
+|--------------------------------------------------------------------------
+| Chain of Responsibility Design Pattern - Command
+|--------------------------------------------------------------------------
+| This example demonstrates the Command Design Pattern
+|--------------------------------------------------------------------------
+| @category  Design Pattern
+| @package   Behavioral/ChainOfResponsibility
+| @version   1.0.0
+| @license   MIT License
+| @link      https://github.com/JawherKl/design-patterns-in-php
+|--------------------------------------------------------------------------
+|
+*/
+
 // Command interface declares a method for executing a command.
 class Command {
   execute() {}
