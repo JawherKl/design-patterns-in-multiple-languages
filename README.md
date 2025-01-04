@@ -58,3 +58,4 @@ For software engineers, mastering design patterns is essential to writing better
 [![Stargazers over time](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages.svg?variant=adaptive)](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages)
 
 Give me stars! Thank you!!!
+
