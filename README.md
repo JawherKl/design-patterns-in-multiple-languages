@@ -1,5 +1,7 @@
 [ Switch to French 🇫🇷](README_fr.md)
 
+![design-patterns-in-multiple-languages](https://github.com/JawherKl/design-patterns-in-multiple-languages/docs/design-patterns.png)
+
 # Design-patterns
 In this project, I will provide examples of all major design patterns and demonstrate how they are implemented in PHP, Go, Js and Java.
 Studying and practicing all types of design patterns is crucial for software engineers for several reasons:
