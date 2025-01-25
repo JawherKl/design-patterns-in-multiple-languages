@@ -1,3 +1,5 @@
+package patterns.Creational.Prototype.Java.RealWorldExamples;
+
 /*
 |--------------------------------------------------------------------------
 | Prototype Design Pattern - Shape Example
