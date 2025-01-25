@@ -4,7 +4,7 @@
 
 ![design-patterns-in-multiple-languages](https://github.com/JawherKl/design-patterns-in-multiple-languages/blob/main/docs/design-patterns.png)
 
-Dans ce projet, je fournirai des exemples de tous les principaux design patterns et démontrerai comment ils sont implémentés en PHP, Go, JavaScript et Java.
+Dans ce projet, je fournirai des exemples de tous les principaux design patterns et démontrerai comment ils sont implémentés en PHP, Go, JS et Java.
 
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)&nbsp;
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)&nbsp;
