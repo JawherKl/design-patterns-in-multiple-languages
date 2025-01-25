@@ -1,3 +1,5 @@
+package patterns.Creational.Prototype.Java;
+
 /*
 |--------------------------------------------------------------------------
 | Prototype Design Pattern - Implementation Example
