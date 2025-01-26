@@ -11,7 +11,7 @@ In this project, I will provide examples of all major design patterns and demons
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-Studying and practicing all types of design patterns is crucial for software engineers for several reasons:
+Studying and practising all types of design patterns is crucial for software engineers for several reasons:
 
 ### 1. **Improved Problem-Solving Skills**  
 Design patterns provide tried-and-tested solutions to common software design problems. Understanding these patterns enables engineers to recognize recurring challenges and apply efficient solutions without reinventing the wheel. This ability improves problem-solving skills and helps in tackling new issues more effectively.
@@ -38,7 +38,7 @@ Knowledge of design patterns is highly valued in the software industry. Masterin
 Design patterns are not tied to any specific technology, language, or framework. They are conceptual solutions that can be implemented in different programming environments, whether you’re working with Java, Python, PHP, JavaScript, or others. Mastery of these patterns allows engineers to transition between technologies while retaining design skills that apply universally.
 
 ### 9. **Avoiding Anti-Patterns**  
-Studying design patterns helps in recognizing and avoiding **anti-patterns**, which are poor solutions to problems that may seem effective initially but lead to technical debt or inefficiencies over time. Knowing design patterns gives engineers the tools to avoid such pitfalls by implementing the right solutions from the start.
+Studying design patterns helps recognize and avoid anti-patterns, which are poor solutions to problems that may seem effective initially but lead to technical debt or inefficiencies over time. Knowing design patterns gives engineers the tools to avoid such pitfalls by implementing the right solutions from the start.
 
 ### 10. **Optimizing Performance and Scalability**  
 Many patterns are geared towards optimizing system performance and scalability. For example:
@@ -47,20 +47,14 @@ Many patterns are geared towards optimizing system performance and scalability. 
 - **High-write traffic systems** can use the **Builder** or **Command** patterns for efficient resource management.
 
 ### Conclusion:
-For software engineers, mastering design patterns is essential to writing better, maintainable, and scalable code. It leads to professional growth, fosters collaboration, and enables engineers to design systems that stand the test of time. Patterns are the tools that help bridge the gap between theoretical knowledge and practical, real-world software development.
+Mastering design patterns is essential for software engineers to write better, maintainable, and scalable code. It leads to professional growth, fosters collaboration, and enables engineers to design systems that endure. Patterns are tools that help bridge the gap between theoretical knowledge and practical, real-world software development.
 
-### Resources:
-[DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
-
-[awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
-
-[Design-Patterns-Elements-Reusable-Object-Oriented](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-
-[Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
-
-[codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
-
-[leetcode-design-patterns](https://leetcode.com/problem-list/design/)
+## References
+- [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
+- [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
+- [codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
+- [leetcode-design-patterns](https://leetcode.com/problem-list/design/)
 
 ## Stargazers over time
 
