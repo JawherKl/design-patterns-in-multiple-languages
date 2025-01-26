@@ -1,7 +1,3 @@
-package main
-
-import "fmt"
-
 // Builder Design Pattern - Meal Plan
 //
 // This example demonstrates the Builder Design Pattern to create different
@@ -9,113 +5,119 @@ import "fmt"
 
 // MealPlanBuilder interface specifies methods for creating different parts of the
 // Meal Plan.
-type MealPlanBuilder interface {
-    AddMainCourse() MealPlanBuilder
-    AddSideDish() MealPlanBuilder
-    AddDessert() MealPlanBuilder
-    GetMealPlan() MealPlan
+class MealPlanBuilder {
+    addMainCourse() {}
+    addSideDish() {}
+    addDessert() {}
+    getMealPlan() {}
 }
 
 // Concrete Builder class for creating a Standard Meal Plan.
-type StandardMealPlanBuilder struct {
-    mealPlan MealPlan
-}
+class StandardMealPlanBuilder extends MealPlanBuilder {
+    constructor() {
+        super();
+        this.mealPlan = new MealPlan();
+    }
 
-func (b *StandardMealPlanBuilder) AddMainCourse() MealPlanBuilder {
-    b.mealPlan.MainCourse = "Steak"
-    return b
-}
+    addMainCourse() {
+        this.mealPlan.mainCourse = "Steak";
+        return this;
+    }
 
-func (b *StandardMealPlanBuilder) AddSideDish() MealPlanBuilder {
-    b.mealPlan.SideDish = "French Fries"
-    return b
-}
+    addSideDish() {
+        this.mealPlan.sideDish = "French Fries";
+        return this;
+    }
 
-func (b *StandardMealPlanBuilder) AddDessert() MealPlanBuilder {
-    b.mealPlan.Dessert = "Ice Cream"
-    return b
-}
+    addDessert() {
+        this.mealPlan.dessert = "Ice Cream";
+        return this;
+    }
 
-func (b *StandardMealPlanBuilder) GetMealPlan() MealPlan {
-    return b.mealPlan
+    getMealPlan() {
+        return this.mealPlan;
+    }
 }
 
 // Concrete Builder class for creating a Vegetarian Meal Plan.
-type VegetarianMealPlanBuilder struct {
-    mealPlan MealPlan
-}
+class VegetarianMealPlanBuilder extends MealPlanBuilder {
+    constructor() {
+        super();
+        this.mealPlan = new MealPlan();
+    }
 
-func (b *VegetarianMealPlanBuilder) AddMainCourse() MealPlanBuilder {
-    b.mealPlan.MainCourse = "Vegetarian Burger"
-    return b
-}
+    addMainCourse() {
+        this.mealPlan.mainCourse = "Vegetarian Burger";
+        return this;
+    }
 
-func (b *VegetarianMealPlanBuilder) AddSideDish() MealPlanBuilder {
-    b.mealPlan.SideDish = "Salad"
-    return b
-}
+    addSideDish() {
+        this.mealPlan.sideDish = "Salad";
+        return this;
+    }
 
-func (b *VegetarianMealPlanBuilder) AddDessert() MealPlanBuilder {
-    b.mealPlan.Dessert = "Fruit Salad"
-    return b
-}
+    addDessert() {
+        this.mealPlan.dessert = "Fruit Salad";
+        return this;
+    }
 
-func (b *VegetarianMealPlanBuilder) GetMealPlan() MealPlan {
-    return b.mealPlan
+    getMealPlan() {
+        return this.mealPlan;
+    }
 }
 
 // The Product class represents the complex object under construction, in this
 // case, a Meal Plan.
-type MealPlan struct {
-    MainCourse string
-    SideDish   string
-    Dessert    string
-}
+class MealPlan {
+    constructor() {
+        this.mainCourse = "";
+        this.sideDish = "";
+        this.dessert = "";
+    }
 
-func (m *MealPlan) ListItems() {
-    fmt.Printf("Main Course: %s\n", m.MainCourse)
-    fmt.Printf("Side Dish: %s\n", m.SideDish)
-    fmt.Printf("Dessert: %s\n", m.Dessert)
+    listItems() {
+        console.log(`Main Course: ${this.mainCourse}`);
+        console.log(`Side Dish: ${this.sideDish}`);
+        console.log(`Dessert: ${this.dessert}`);
+    }
 }
 
 // The Director class defines the order in which the construction steps
 // should be called to build the final meal plan.
-type MealPlanDirector struct{}
+class MealPlanDirector {
+    buildStandardMeal(builder) {
+        return builder.addMainCourse()
+            .addSideDish()
+            .addDessert()
+            .getMealPlan();
+    }
 
-func (d *MealPlanDirector) BuildStandardMeal(builder MealPlanBuilder) MealPlan {
-    return builder.AddMainCourse().
-        AddSideDish().
-        AddDessert().
-        GetMealPlan()
-}
-
-func (d *MealPlanDirector) BuildVegetarianMeal(builder MealPlanBuilder) MealPlan {
-    return builder.AddMainCourse().
-        AddSideDish().
-        AddDessert().
-        GetMealPlan()
+    buildVegetarianMeal(builder) {
+        return builder.addMainCourse()
+            .addSideDish()
+            .addDessert()
+            .getMealPlan();
+    }
 }
 
 // Client code to demonstrate the Meal Plan creation process.
-func clientCode(director MealPlanDirector, builder MealPlanBuilder) {
-    mealPlan := director.BuildStandardMeal(builder)
-    fmt.Println("Standard Meal Plan:")
-    mealPlan.ListItems()
+function clientCode(director, builder) {
+    let mealPlan = director.buildStandardMeal(builder);
+    console.log("Standard Meal Plan:");
+    mealPlan.listItems();
 
-    fmt.Println()
+    console.log();
 
-    vegetarianMealPlan := director.BuildVegetarianMeal(builder)
-    fmt.Println("Vegetarian Meal Plan:")
-    vegetarianMealPlan.ListItems()
+    let vegetarianMealPlan = director.buildVegetarianMeal(builder);
+    console.log("Vegetarian Meal Plan:");
+    vegetarianMealPlan.listItems();
 }
 
 // Usage Example:
-func main() {
-    director := MealPlanDirector{}
+const director = new MealPlanDirector();
 
-    fmt.Println("Testing Standard Meal Plan Builder:")
-    clientCode(director, &StandardMealPlanBuilder{})
+console.log("Testing Standard Meal Plan Builder:");
+clientCode(director, new StandardMealPlanBuilder());
 
-    fmt.Println("\n\nTesting Vegetarian Meal Plan Builder:")
-    clientCode(director, &VegetarianMealPlanBuilder{})
-}
+console.log("\n\nTesting Vegetarian Meal Plan Builder:");
+clientCode(director, new VegetarianMealPlanBuilder());
