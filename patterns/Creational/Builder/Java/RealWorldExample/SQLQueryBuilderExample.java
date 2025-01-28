@@ -1,7 +1,8 @@
 package patterns.Creational.Builder.Java.RealWorldExample;
 
+import java.util.ArrayList;
+import java.util.List;
 
-Java
 // Builder Design Pattern - SQL Query Builder
 //
 // This example demonstrates the Factory Method Design Pattern to send various
@@ -91,7 +92,7 @@ class SQLQuery {
 }
 
 // Client code to demonstrate the SQL Query Builder.
-public class Main {
+public class SQLQueryBuilderExample {
     public static void main(String[] args) {
         System.out.println("Testing MySQL query builder:");
         clientCode(new MysqlQueryBuilder());

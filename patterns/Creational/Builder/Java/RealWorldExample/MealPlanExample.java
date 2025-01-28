@@ -123,7 +123,7 @@ class MealPlanDirector {
 }
 
 // Client code to demonstrate the Meal Plan creation process.
-public class Main {
+public class MealPlanExample {
     public static void main(String[] args) {
         MealPlanDirector director = new MealPlanDirector();
 
