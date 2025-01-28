@@ -1,5 +1,8 @@
 package patterns.Creational.Builder.Java;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Builder Design Pattern - Implementation Example
 //
 // This example demonstrates the Builder Design Pattern, which is used to 
@@ -133,7 +136,7 @@ class Director {
 // The client code creates a builder object, passes it to the director and then
 // initiates the construction process. The end result is retrieved from the
 // builder object.
-public class Main {
+public class BuilderExample {
     public static void main(String[] args) {
         Director director = new Director();
         ConcreteBuilder1 builder = new ConcreteBuilder1();

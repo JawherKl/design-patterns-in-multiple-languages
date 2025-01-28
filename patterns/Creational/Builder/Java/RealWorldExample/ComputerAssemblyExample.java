@@ -1,5 +1,8 @@
 package patterns.Creational.Builder.Java.RealWorldExample;
 
+import java.util.HashMap;
+import java.util.Map;
+
 // Builder Design Pattern - Computer Assembly
 //
 // This example demonstrates the Builder Design Pattern for assembling
@@ -125,7 +128,7 @@ class Director {
 }
 
 // Client code.
-public class Main {
+public class ComputerAssemblyExample {
     public static void main(String[] args) {
         Director director = new Director();
 
