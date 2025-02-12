@@ -2,6 +2,12 @@
 
 # Design-patterns
 
+![Repository Size](https://img.shields.io/github/repo-size/JawherKl/design-patterns-in-multiple-languages)
+![Last Commit](https://img.shields.io/github/last-commit/JawherKl/design-patterns-in-multiple-languages)
+![Issues](https://img.shields.io/github/issues-raw/JawherKl/design-patterns-in-multiple-languages)
+![Forks](https://img.shields.io/github/forks/JawherKl/design-patterns-in-multiple-languages)
+![Stars](https://img.shields.io/github/stars/JawherKl/design-patterns-in-multiple-languages)
+
 ![design-patterns-in-multiple-languages](https://github.com/JawherKl/design-patterns-in-multiple-languages/blob/main/docs/design-patterns.png)
 
 In this project, I will provide examples of all major design patterns and demonstrate how they are implemented in PHP, Go, JS and Java.
