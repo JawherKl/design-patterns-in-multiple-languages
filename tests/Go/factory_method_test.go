@@ -3,7 +3,6 @@ package factorymethod
 import (
     "testing"
 )
-
 func TestFactoryProducesCorrectObject(t *testing.T) {
     factory := Factory{}
     product := factory.CreateProduct("ConcreteProduct")
