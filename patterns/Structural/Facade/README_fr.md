@@ -1,3 +1,14 @@
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
 Le **Facade** est un patron de conception structurel qui fournit une interface simplifiée (mais limitée) à un système complexe de classes, de bibliothèques ou de frameworks.
 
 Bien que le **Facade** réduise la complexité globale de l'application, il aide également à regrouper les dépendances indésirables en un seul endroit.
