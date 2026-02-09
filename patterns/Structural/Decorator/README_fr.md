@@ -1,3 +1,14 @@
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
 Le **Decorator** est un patron de conception structurel qui permet d’ajouter dynamiquement de nouveaux comportements à des objets en les enveloppant dans des objets spéciaux (wrappers) qui contiennent ces comportements.
 
 Porter des vêtements est un exemple d’utilisation des **decorators**. Quand il fait froid, vous mettez un pull. Si vous avez encore froid, vous ajoutez une veste. S’il pleut, vous enfilez un imperméable. Tous ces vêtements "étendent" votre comportement de base sans faire partie intégrante de vous, et vous pouvez les enlever facilement lorsque vous n'en avez plus besoin.
