@@ -1,5 +1,15 @@
-<!--**Bridge - Modèle de conception structurel**-->
-Le Bridge est un modèle de conception structurel qui permet de diviser une grande classe ou un ensemble de classes étroitement liées en deux hiérarchies distinctes : abstraction et implémentation. Ces deux parties peuvent être développées indépendamment l'une de l'autre.  
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
+Le **Bridge** est un modèle de conception structurel qui permet de diviser une grande classe ou un ensemble de classes étroitement liées en deux hiérarchies distinctes : abstraction et implémentation. Ces deux parties peuvent être développées indépendamment l'une de l'autre.  
 
 Ce modèle est particulièrement utile lorsque vous devez gérer plusieurs types de serveurs de bases de données ou travailler avec plusieurs fournisseurs d'API d'un même type (par exemple, des plateformes cloud, des réseaux sociaux, etc.).  
 
