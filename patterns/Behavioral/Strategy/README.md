@@ -1,6 +1,15 @@
-# Strategy Pattern
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
 
-Strategy is a behavioral design pattern that turns a set of behaviors into objects and makes them interchangeable inside the original context object.
+**Strategy Pattern** is a behavioral design pattern that turns a set of behaviors into objects and makes them interchangeable inside the original context object.
 
 The original object, called context, holds a reference to a strategy object. The context delegates executing the behavior to the linked strategy object. In order to change the way the context performs its work, other objects may replace the currently linked strategy object with another one.
 

@@ -1,4 +1,15 @@
-Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Factory** Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 # Conceptual Example:
 This example illustrates the structure of the Factory Method design pattern and focuses on the following questions:

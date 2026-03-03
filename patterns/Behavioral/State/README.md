@@ -1,10 +1,17 @@
-State is a behavioral design pattern that allows an object to change the behavior when its internal state changes.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**State** is a behavioral design pattern that allows an object to change the behavior when its internal state changes.
 
 The pattern extracts state-related behaviors into separate state classes and forces the original object to delegate the work to an instance of these classes, instead of acting on its own.
-
-
-
-
 
 # RealWorldExample:
 ## OrderProcess:

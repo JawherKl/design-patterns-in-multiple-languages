@@ -1,4 +1,13 @@
-[ Switch to French 🇫🇷](README_fr.md)
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
 
 # Creational Design Patterns
 

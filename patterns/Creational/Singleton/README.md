@@ -1,4 +1,15 @@
-Singleton is a creational design pattern, which ensures that only one object of its kind exists and provides a single point of access to it for any other code.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Singleton** is a creational design pattern, which ensures that only one object of its kind exists and provides a single point of access to it for any other code.
 
 # Conceptual Example:
 This example illustrates the structure of the Singleton design pattern and focuses on the following questions:

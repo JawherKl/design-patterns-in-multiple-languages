@@ -1,4 +1,15 @@
-Observer is a behavioral design pattern that allows some objects to notify other objects about changes in their state.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Observer** is a behavioral design pattern that allows some objects to notify other objects about changes in their state.
 
 The Observer pattern provides a way to subscribe and unsubscribe to and from these events for any object that implements a subscriber interface.
 
