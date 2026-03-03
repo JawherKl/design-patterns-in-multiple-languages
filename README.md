@@ -10,14 +10,19 @@
 </table>
 
 # Design-patterns
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/JawherKl/design-patterns-in-multiple-languages" alt="Repository Size"/>
+  <img src="https://img.shields.io/github/last-commit/JawherKl/design-patterns-in-multiple-languages" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/issues-raw/JawherKl/design-patterns-in-multiple-languages" alt="Issues"/>
+  <img src="https://img.shields.io/github/forks/JawherKl/design-patterns-in-multiple-languages" alt="Forks"/>
+  <img src="https://img.shields.io/github/stars/JawherKl/design-patterns-in-multiple-languages" alt="Stars"/>
+  <img src="https://img.shields.io/badge/status-actively%20maintained-brightgreen" alt="Status"/>
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License"/>
+</p>
 
-![Repository Size](https://img.shields.io/github/repo-size/JawherKl/design-patterns-in-multiple-languages)
-![Last Commit](https://img.shields.io/github/last-commit/JawherKl/design-patterns-in-multiple-languages)
-![Issues](https://img.shields.io/github/issues-raw/JawherKl/design-patterns-in-multiple-languages)
-![Forks](https://img.shields.io/github/forks/JawherKl/design-patterns-in-multiple-languages)
-![Stars](https://img.shields.io/github/stars/JawherKl/design-patterns-in-multiple-languages)
-
-![design-patterns-in-multiple-languages](https://github.com/JawherKl/design-patterns-in-multiple-languages/blob/main/docs/design-patterns.png)
+<p align="center">
+  <img src="https://github.com/JawherKl/design-patterns-in-multiple-languages/blob/main/docs/design-patterns.png" alt="License"/>
+</p>
 
 In this project, I will provide examples of all major design patterns and demonstrate how they are implemented in PHP, Go, JS and Java.
 
