@@ -9,7 +9,7 @@
   </tr>
 </table>
 
-# Modèles de conception
+# Modèles de conception (Design Patterns)
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/JawherKl/design-patterns-in-multiple-languages" alt="Repository Size"/>
@@ -69,3 +69,14 @@ De nombreux patterns sont conçus pour optimiser les performances et l'évolutiv
 
 ### Conclusion:
 Pour les ingénieurs logiciels, maîtriser les design patterns est essentiel pour écrire un code meilleur, plus maintenable et évolutif. Cela conduit à une croissance professionnelle, favorise la collaboration et permet aux ingénieurs de concevoir des systèmes qui résistent à l'épreuve du temps. Les patterns sont les outils qui aident à combler le fossé entre les connaissances théoriques et le développement logiciel pratique du monde réel.
+
+## Références
+- [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
+- [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://github.com/GunterMueller/Books-3/blob/master/Design%20Patterns%20Elements%20of%20Reusable%20Object-Oriented%20Software.pdf)
+- [codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
+- [leetcode-design-patterns](https://leetcode.com/problem-list/design/)
+
+## Stargazers au fil du temps
+
+[![Stargazers over time](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages.svg?variant=adaptive)](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages)
