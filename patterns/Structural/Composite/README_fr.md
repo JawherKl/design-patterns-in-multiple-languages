@@ -1,3 +1,14 @@
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
 Le **Composite** est un patron de conception structurel qui permet de composer des objets en structures arborescentes et de travailler avec ces structures comme s’il s’agissait d’objets individuels.
 
 Le **Composite** est devenu une solution populaire pour les problèmes nécessitant la construction d'une structure en arbre. Sa principale caractéristique est la capacité d’exécuter des méthodes de manière récursive sur l’ensemble de la structure et de cumuler les résultats.

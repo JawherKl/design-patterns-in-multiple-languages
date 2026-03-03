@@ -1,6 +1,15 @@
-<!--**Adapter - Modèle de conception structurel** -->
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
 
-L'Adapter est un modèle de conception structurel qui permet à des objets ayant des interfaces incompatibles de collaborer.  
+L'**Adapter** est un modèle de conception structurel qui permet à des objets ayant des interfaces incompatibles de collaborer.  
 
 L'Adapter agit comme un intermédiaire entre deux objets. Il intercepte les appels destinés à un objet et les transforme dans un format ou une interface compréhensible par le second objet.  
 
