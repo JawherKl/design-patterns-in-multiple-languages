@@ -1,3 +1,14 @@
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
 **Proxy** est un patron de conception structurel qui fournit un objet servant de substitut à un véritable objet de service utilisé par un client. Un proxy reçoit les requêtes du client, effectue certaines actions (contrôle d'accès, mise en cache, etc.) puis transmet la requête à un objet de service.
 
 L'objet proxy possède la même interface qu'un service, ce qui le rend interchangeable avec un véritable objet lorsqu'il est transmis à un client.

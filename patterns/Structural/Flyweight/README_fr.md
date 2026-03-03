@@ -1,3 +1,14 @@
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
+
 **Flyweight** est un patron de conception structurel qui permet aux programmes de supporter une grande quantité d'objets en gardant leur consommation mémoire faible.
 
 Le patron y parvient en partageant des parties de l'état des objets entre plusieurs objets. En d'autres termes, le Flyweight économise de la RAM en mettant en cache les mêmes données utilisées par différents objets.
