@@ -1,4 +1,15 @@
-Memento is a behavioral design pattern that allows making snapshots of an object’s state and restoring it in future.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Memento** is a behavioral design pattern that allows making snapshots of an object’s state and restoring it in future.
 
 The Memento doesn’t compromise the internal structure of the object it works with, as well as data kept inside the snapshots.
 

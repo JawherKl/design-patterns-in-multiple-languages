@@ -1,4 +1,15 @@
-Chain of Responsibility is behavioral design pattern that allows passing request along the chain of potential handlers until one of them handles request.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Chain of Responsibility** is behavioral design pattern that allows passing request along the chain of potential handlers until one of them handles request.
 
 # Conceptual Example:
 This example illustrates the structure of the Abstract Factory design pattern. It focuses on answering these questions:

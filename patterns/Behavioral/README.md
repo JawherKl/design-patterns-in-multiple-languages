@@ -1,4 +1,13 @@
-[🇫🇷 Switch to French](README_fr.md)
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
 
 # Behavioral Design Patterns
 This folder includes examples of common **Behavioral Design Patterns** implemented in PHP, Go, JavaScript, and Java. Behavioral patterns focus on the interaction between objects, ensuring that they work together effectively and efficiently, often describing how responsibility is distributed among them.

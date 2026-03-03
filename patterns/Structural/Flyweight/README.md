@@ -1,4 +1,15 @@
-Flyweight is a structural design pattern that allows programs to support vast quantities of objects by keeping their memory consumption low.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Flyweight** is a structural design pattern that allows programs to support vast quantities of objects by keeping their memory consumption low.
 
 The pattern achieves it by sharing parts of object state between multiple objects. In other words, the Flyweight saves RAM by caching the same data used by different objects.
 

@@ -1,4 +1,15 @@
-Abstract Factory is a creational design pattern, which solves the problem of creating entire product families without specifying their concrete classes.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Abstract Factory** is a creational design pattern, which solves the problem of creating entire product families without specifying their concrete classes.
 
 # Conceptual Example:
 This example illustrates the structure of the Abstract Factory design pattern. It focuses on answering these questions:

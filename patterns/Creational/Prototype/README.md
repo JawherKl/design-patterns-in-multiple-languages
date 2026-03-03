@@ -1,4 +1,15 @@
-Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+<table>
+  <tr>
+    <td align="center">
+      <a href="README_fr.md">🇫🇷 Switch to French</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
+  </tr>
+</table>
+
+**Prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
 # Conceptual Example:
 This example illustrates the structure of the Prototype design pattern and focuses on the following questions:
