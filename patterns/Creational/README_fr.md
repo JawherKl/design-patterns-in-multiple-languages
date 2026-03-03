@@ -1,4 +1,13 @@
-[ Passer en Anglais 🇬🇧](README.md)
+<table>
+    <tr>
+      <td align="center">
+        <a href="README.md">🇬🇧 Passer en Anglais</a>
+      </td>
+      <td align="center">
+        <a href="README_de.md">🇩🇪 Passer en Allemand</a>
+      </td>
+  </tr>
+</table>
 
 # Les Design Patterns Créationnels
 Ce dossier contient des exemples de **Design Patterns Créationnels** courants implémentés en PHP, Go, Js and Java. Les patterns créationnels sont conçus pour gérer les mécanismes de création des objets, rendant le processus de création plus flexible et efficace.
