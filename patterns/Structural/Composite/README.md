@@ -30,17 +30,17 @@ example of the Composite Design Pattern similar to the provided one. It demonstr
 
 ### Explanation:
 * Base Component (FilesystemItem):: 
--Provides a common interface for both `File` and `Folder`.
--Declares methods for getting size and rendering.
+  - Provides a common interface for both `File` and `Folder`.
+  - Declares methods for getting size and rendering.
 * Leaf Component (File):
--Represents individual files.
+  - Represents individual files.
 -Implements the size calculation and rendering logic for files.
 * Composite Component (Folder):
--Represents folders that can contain other FilesystemItem objects.
--Implements logic for adding, removing, and calculating size for all children.
--Combines rendering output from its children.
+  - Represents folders that can contain other FilesystemItem objects.
+  - Implements logic for adding, removing, and calculating size for all children.
+  - Combines rendering output from its children.
 * Concrete Implementations (PayPalGateway, StripeGateway): 
--Specific implementations for different payment gateways.
+  - Specific implementations for different payment gateways.
 * Client Code: 
--Builds a hierarchical structure of files and folders.
--Works with the structure using the abstract FilesystemItem interface.
+  - Builds a hierarchical structure of files and folders.
+  - Works with the structure using the abstract FilesystemItem interface.

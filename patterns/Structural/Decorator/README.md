@@ -34,8 +34,8 @@ In this case, we'll decorate a basic Message class to add various text transform
 * Base Decorator (MessageDecorator):
 Implements the same interface and holds a reference to a Message object.
 * Concrete Decorators:
--ReverseTextDecorator: Reverses the text.
--UppercaseDecorator: Converts text to uppercase.
--EncryptionDecorator: Applies ROT13 encryption.
+  - ReverseTextDecorator: Reverses the text.
+  - UppercaseDecorator: Converts text to uppercase.
+  - EncryptionDecorator: Applies ROT13 encryption.
 * Client Code: 
 Demonstrates the dynamic composition of decorators to modify the message.

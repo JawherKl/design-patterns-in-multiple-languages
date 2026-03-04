@@ -33,28 +33,28 @@ This example demonstrates how the Bridge Design Pattern allows separating the ab
 
 ### Explanation:
 * Abstraction (Payment): 
--Represents the main operations of the payment system.
--Delegates the processing of payments to the PaymentGateway implementation.
+  - Represents the main operations of the payment system.
+  - Delegates the processing of payments to the PaymentGateway implementation.
 * Refined Abstractions (OnlinePayment, InStorePayment): 
--Provide specific implementations for payment types (online or in-store).
+  - Provide specific implementations for payment types (online or in-store).
 * Implementation (PaymentGateway Interface): 
--Represents the interface for payment gateways like PayPal or Stripe.
+  - Represents the interface for payment gateways like PayPal or Stripe.
 * Concrete Implementations (PayPalGateway, StripeGateway): 
--Specific implementations for different payment gateways.
+  - Specific implementations for different payment gateways.
 * Client Code: 
--Works only with the abstraction, not caring about the specific implementation.
+ - Works only with the abstraction, not caring about the specific implementation.
 
 ## CurrencyConverter:
 In this scenario, we'll implement a drawing tool where the abstraction represents different shapes (like circles and rectangles), and the implementation focuses on different rendering methods (like vector rendering and raster rendering).
 ### Explanation:
 * Abstraction (Shape): 
--Represents the concept of a shape.
--Delegates the rendering logic to the Renderer implementation.
+  - Represents the concept of a shape.
+  - Delegates the rendering logic to the Renderer implementation.
 * Refined Abstractions  (Circle, Rectangle): 
--Extend the abstraction to include specific shapes.
+  - Extend the abstraction to include specific shapes.
 * Implementation (Renderer Interface):
--Represents the interface for payment gateways like PayPal or Stripe.
+  - Represents the interface for payment gateways like PayPal or Stripe.
 * Concrete Implementations (VectorRenderer, RasterRenderer): 
--Implement rendering logic for vector graphics and raster graphics, respectively.
+  - Implement rendering logic for vector graphics and raster graphics, respectively.
 * Client Code: 
--Works with any combination of shapes and renderers.
+  - Works with any combination of shapes and renderers.
