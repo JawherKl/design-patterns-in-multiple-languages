@@ -1,5 +1,5 @@
 <table>
-    <tr>
+  <tr>
       <td align="center">
         <a href="README.md">🇬🇧 Passer en Anglais</a>
       </td>
@@ -121,6 +121,6 @@ class WeatherAdapter {
 Les design patterns sont des outils essentiels en génie logiciel qui résolvent des problèmes courants de conception et de maintenabilité. Comprendre ces patterns vous aide à écrire un code plus évolutif, flexible et réutilisable. 
 
 ### Explorez davantage :
-- Pour les **design patterns comportementaux**, consultez des patterns spécifiques comme **Strategy** et **Observer**.
-- Pour les **design patterns créationnels**, explorez **Singleton** et **Abstract Factory**.
-- Pour les **design patterns structuraux**, plongez plus profondément dans **Adapter** et **Decorator**.
+- Pour les design patterns **Comportementaux**, consultez des patterns spécifiques comme **Strategy** et **Observer**.
+- Pour les design patterns **Créationnels**, explorez **Singleton** et **Abstract Factory**.
+- Pour les design patterns **Structuraux**, plongez plus profondément dans **Adapter** et **Decorator**.

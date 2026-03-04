@@ -1,5 +1,5 @@
 <table>
-    <tr>
+  <tr>
     <td align="center">
       <a href="README.md">🇬🇧 Zu Englisch wechseln</a>
     </td>
