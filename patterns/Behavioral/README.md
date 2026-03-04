@@ -1,11 +1,11 @@
 <table>
   <tr>
-      <td align="center">
-        <a href="README.md">🇬🇧 Switch to English</a>
-      </td>
-      <td align="center">
-        <a href="README_de.md">🇩🇪 Switch to German</a>
-      </td>
+    <td align="center">
+      <a href="README.md">🇬🇧 Switch to English</a>
+    </td>
+    <td align="center">
+      <a href="README_de.md">🇩🇪 Switch to German</a>
+    </td>
   </tr>
 </table>
 
