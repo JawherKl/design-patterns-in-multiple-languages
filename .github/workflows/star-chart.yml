@@ -1,4 +1,3 @@
-# .github/workflows/star-chart.yml
 name: Star Chart
 on:
   schedule:
