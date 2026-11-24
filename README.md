@@ -76,6 +76,12 @@ Mastering design patterns is essential for software engineers to write better, m
 - [codewars-design-patterns](https://www.codewars.com/collections/design-patterns)
 - [leetcode-design-patterns](https://leetcode.com/problem-list/design/)
 
-## Stargazers over time
+## Star History
 
-[![Stargazers over time](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages.svg?variant=adaptive)](https://starchart.cc/JawherKl/design-patterns-in-multiple-languages)
+<a href="https://www.star-history.com/?repos=jawherkl%2Fdesign-patterns-in-multiple-languages&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jawherkl/design-patterns-in-multiple-languages&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jawherkl/design-patterns-in-multiple-languages&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jawherkl/design-patterns-in-multiple-languages&type=date&legend=top-left" />
+ </picture>
+</a>
